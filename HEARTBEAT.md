@@ -120,12 +120,12 @@ Optimize heartbeat behavior for:
 
 ## Environment Placeholders (Fill In)
 - Time zone: America/Toronto
-- Business hours start: `<fill>`
-- Business hours end: `<fill>`
-- Weekend behavior: `<fill>` (recommended: urgent only)
-- Morning brief time: `<fill>`
-- Daily brief enabled: `<yes/no>`
-- Weekly mini review enabled: `<yes/no>`
+- Business hours start: `8:00 a.m.`
+- Business hours end: `5:00 p.m.`
+- Weekend behavior: `Urgent only`
+- Morning brief time: `8:00 a.m.`
+- Daily brief enabled: `no`
+- Weekly mini review enabled: `no`
 
 ## Maintenance Rule
 Update this file when:
