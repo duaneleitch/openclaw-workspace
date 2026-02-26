@@ -137,3 +137,18 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# OpenClaw runtime/state artifacts
+.openclaw/
+**/.openclaw/
+*.jsonl
+memory/*.json
+.trash/
+
+# Ignore accidental bootstrap/core files inside specialist agent folders
+agents/*/AGENTS.md
+agents/*/BOOTSTRAP.md
+agents/*/HEARTBEAT.md
+agents/*/IDENTITY.md
+agents/*/TOOLS.md
+agents/*/USER.md
