@@ -85,12 +85,19 @@ When notifying, keep it tight:
 Stay lightweight by default.
 - Use main agent only for basic checks and short summaries
 - Spawn specialists only when there is a clear signal:
-- `retainforge` for customer risk / adoption / retention
-- `deliverygrid` for onboarding / implementation process issues
-- `signalbridge` for handoff / pre-to-post sales issues
-- `metricpilot` for KPI changes / trends / RCA
+- `customer_success` for customer risk / adoption / retention
+- `delivery` for onboarding / implementation process issues
+- `solutioneng` for handoff / pre-to-post sales issues
+- `analyst` for KPI changes / trends / RCA
 - `execpen` only if a polished leadership update is needed
-- `ironcheck` only for high impact recommendations
+- `quality` only for high impact recommendations
+
+## High Impact Definition
+High impact includes:
+- customer facing or exec facing recommendations
+- changes to KPIs, targets, or operating cadence
+- process rollouts that affect multiple teams
+- decisions that change commitments, scope, or policy
 
 ## Noise Control
 ### Send immediately
