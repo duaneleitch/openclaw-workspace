@@ -4,7 +4,7 @@
 
 - **Name:** Duane Leitch
 - **What to call them:** Duane
-- **Timezone:** UTC
+- **Timezone:** EST (Ottawa, Canada)
 - **Location:** Ottawa, Ontario, Canada (Ottawa / Kanata region)
 - **Current Company:** Diversys Software, Inc.
 - **Current Title:** Vice President, Client Enablement and Success
