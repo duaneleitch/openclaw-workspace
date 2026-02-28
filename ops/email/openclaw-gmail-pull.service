@@ -1,0 +1,7 @@
+[Unit]
+Description=OpenClaw Gmail Pull (every 10 minutes)
+
+[Service]
+Type=oneshot
+Environment=GOG_KEYRING_PASSWORD=
+ExecStart=/home/duane/.local/bin/openclaw-gmail-pull.py
