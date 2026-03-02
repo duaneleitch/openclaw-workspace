@@ -1,0 +1,20 @@
+# MEMORY.md
+
+## Preferences
+- Use EST for all logs and timestamps.
+- Always interpret time references in EST unless explicitly stated otherwise.
+- Store session summaries in /home/duane/.openclaw/workspace/memory/session-summaries.md using: date (EST), context, key decisions, open items/next steps, links, and include sub-agent outputs tagged by agent.
+- Clean up sub-agents on session reset.
+- Always update AGENTS.md when agent configuration changes.
+- When adding a new agent, create its Obsidian output folder and add it to Agent_Folder_Map.
+- Use /mnt/obsidian/00_General_Info/Agent_Folder_Map.md as the source of truth for agent-to-folder mappings across sessions.
+- Email triage rules: classify emails by sender domain (diversys.com = work, gmail.com = personal). Personal emails go to /mnt/obsidian/06_Personal_Email. Work emails go to /mnt/obsidian/07_Diversys_Email and then get triaged as Info Only, Requires Action, and or Requires Response (can be both action and response). If client-related, create a note in /mnt/obsidian/05_Diversys/Clients/<ClientName>/ and alert if folder missing. Extract actions to /mnt/obsidian/08_Action_Items/Action Register.md with owner, status (Open if new), due date if any; route to /mnt/obsidian/08_Action_Items/My_Actions or /mnt/obsidian/08_Action_Items/Others_Actions based on owner. Draft responses when required with specific titles. Daily AM action summary (8:00 AM EST) and EOD update ping (5:00 PM EST) should be maintained via cron. Client mapping notes: ENCORP may use @returnit.ca, Tarkett may use oneturfpro, Ekocircles uses ekocircles.com, CalRecycle uses calrecycle.ca.gov, Aramco uses aramco.com.
+- Food log: always track meals in /home/duane/.openclaw/workspace/memory/food-log.md using EST timestamps.
+- Prep reset: use /home/duane/.local/bin/openclaw-prep-reset.sh (alias: prep-reset) before /new; it triggers a session summary + sub-agent cleanup, then you run /new.
+- Provide periodic status updates during longer troubleshooting or multi-step work so Duane is not left waiting.
+- Responses must be thorough and complete.
+- Always look for and use all available relevant information (knowledge base, notes, docs) to answer questions, and synthesize into a full, detailed response.
+- Never use em dashes in any writing, including emails and drafts.
+- Action Register format: every action must have owner, open date, current status, close date (empty until closed), and a section-based action number. Organize blocks as: My Actions (Open then Pending then Closed), Others Actions (Open then Pending then Closed), Manually Added Actions (Open then Pending then Closed). Numbering is per section and chronological: oldest actions keep the lowest numbers; new actions append to the end of their section. Pending actions must include a Pending Note describing what is outstanding. Closed actions must not appear in Open or Pending sections. When Duane says an item can be deleted, remove it from all action folders and reuse its number. Always update the Action Register file after any change. Maintain and update /mnt/obsidian/08_Action_Items/Action_Register_Readable.md on every change, and include its link in the daily action summary cron messages. When combining actions, rewrite the merged action to be clear and concise with no duplication. The current Action Register state is the official baseline going forward.
+- Email triage: if a forwarded email’s original email date is before December 2025, no action or response is needed.
+- Combine meal and symptoms check-ins into a single request when possible.
