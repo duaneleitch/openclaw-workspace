@@ -11,3 +11,5 @@
 - 10:01 — Cereal (1 bowl) and coffee
 
 - 18:16 — Two slices of pizza; bowl of BBQ ripple potato chips. Symptoms: stomach cramps (severity 3).
+
+- 14:06 — Cereal (1 bowl) and coffee. No symptoms. No exercise Mar 2. No lunch today.

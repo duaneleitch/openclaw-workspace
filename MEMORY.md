@@ -27,3 +27,4 @@
 - Email triage: if a forwarded email’s original email date is before December 2025, no action or response is needed.
 - Combine meal and symptoms check-ins into a single request when possible.
 - Meal reminder cron must check the food log for same-day entries before sending a reminder and only ping if missing.
+- Sleep tracking: maintain a separate sleep log at /home/duane/.openclaw/workspace/memory/sleep-log.md and request sleep details with the breakfast check-in.
