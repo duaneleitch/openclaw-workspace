@@ -7,3 +7,7 @@
 - 14:01 — Kit-Kat (no lunch)
 
 - 20:49 — Steak, potatoes, and Caesar salad (no exercise; no issues)
+
+- 10:01 — Cereal (1 bowl) and coffee
+
+- 18:16 — Two slices of pizza; bowl of BBQ ripple potato chips. Symptoms: stomach cramps (severity 3).
