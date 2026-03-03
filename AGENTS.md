@@ -217,15 +217,15 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 - `main` (Chief of Staff)
 - Role: Primary orchestrator and synthesis lead
 - Use for: triage, delegation, synthesis, conflict resolution, executive-ready final outputs
-- Can spawn: `strategy`, `customer_success`, `delivery`, `solutioneng`, `analyst`, `communication_expert`, `quality`, `tech_expert`, `finance_revops_advisor`, `risk_compliance_advisor`, `hr_people_ops_advisor`, `ops_coordinator`, `services_support_manager`, `sales_marketing_manager`, `product_dev_manager`, `research_manager`, `community_researcher`, `market_researcher`, `video_researcher`, `source_verifier`
+- Can spawn: `strategy`, `customer_success`, `delivery`, `solutioneng`, `analyst`, `communication_expert`, `exec_quality_review`, `tech_expert`, `finance_revops_advisor`, `risk_compliance_advisor`, `hr_people_ops_advisor`, `ops_coordinator`, `services_support_manager`, `sales_marketing_manager`, `product_dev_manager`, `research_manager`, `community_researcher`, `market_researcher`, `video_researcher`, `source_verifier`
 
 ### Managers and Subteams
 - `services_support_manager`
-  - Can spawn: `customer_success`, `support_lead`, `training_enablement`, `project_manager`, `tech_expert`
+  - Can spawn: `customer_success`, `support_lead`, `training_enablement`, `project_manager`, `tech_expert`, `delivery`, `exec_quality_review`, `exec_quality_review`, `delivery`
 - `sales_marketing_manager`
-  - Can spawn: `solutioneng`, `marketing_specialist`, `customer_marketing_advocacy`, `revops_enablement`
+  - Can spawn: `solutioneng`, `marketing_specialist`, `product_marketing_specialist`, `customer_marketing_advocacy`, `revops_enablement`, `exec_quality_review`
 - `product_dev_manager`
-  - Can spawn: `product_manager`, `tech_expert`, `delivery`, `qa_quality`, `quality`
+  - Can spawn: `product_manager`, `tech_expert`, `qa_quality`, `exec_quality_review`, `software_developer`
 - `research_manager`
   - Reports to: `main` with dotted line to `strategy`
   - Can spawn: `community_researcher`, `market_researcher`, `video_researcher`, `source_verifier`, `travel_researcher`
@@ -237,7 +237,7 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 - `solutioneng`: discovery, demos, POCs, RFPs, pre to post handoffs, readiness
 - `analyst`: KPI definitions, targets, scorecards, reviews, RCA
 - `communication_expert`: executive memos, leadership updates, stakeholder communications, slide outlines
-- `quality`: high-impact review and consistency checks
+- `exec_quality_review`: high-impact review and consistency checks
 - `tech_expert`: technical guidance, architecture, integrations, and troubleshooting
 - `ops_coordinator`: operational coordination, admin support, and follow through
 - `finance_revops_advisor`: pricing, forecast, revenue operations, and financial analysis
@@ -247,10 +247,12 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 - `training_enablement`: training programs, enablement content, and certification
 - `project_manager`: project planning, timelines, and delivery governance
 - `marketing_specialist`: campaign execution, content, and brand support
+- `product_marketing_specialist`: product positioning, messaging, launches, competitive intel, and sales enablement
 - `customer_marketing_advocacy`: advocacy programs, references, and community
 - `revops_enablement`: sales ops enablement, tooling, and process alignment
 - `product_manager`: product discovery, roadmap, and requirements
 - `qa_quality`: QA strategy, test planning, and release quality
+- `software_developer`: design, build, test, and maintain software; code review and documentation
 - `research_manager`: research intake, scoping, synthesis, and deep dive outputs
 - `community_researcher`: Reddit, Hacker News, forums, and community sources
 - `market_researcher`: competitors, trends, pricing, and industry landscape
@@ -270,7 +272,7 @@ This is a starting point. Add your own conventions, style, and rules as you figu
    - Use explicit assumptions.
    - Add a short validation checklist.
 4. For high-impact outputs:
-   - Route through `quality` before finalizing.
+   - Route through `exec_quality_review` before finalizing.
 
 ### High-Impact Definition (Orchestration)
 High impact includes:
