@@ -231,6 +231,7 @@ This is a starting point. Add your own conventions, style, and rules as you figu
   - Can spawn: `community_researcher`, `market_researcher`, `video_researcher`, `source_verifier`, `travel_researcher`
 
 ### Specialist Agents
+- `agent-health`: health and wellness guide with fitness, nutrition, lifestyle, and naturopathy aligned support
 - `strategy`: priorities, roadmaps, strategy, operating model changes
 - `customer_success`: adoption, retention, enablement, lifecycle, QBR or EBR, risk playbooks
 - `delivery`: onboarding, implementation processes, stage gates, handoffs, SOPs, RACI

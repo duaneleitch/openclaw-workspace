@@ -15,6 +15,33 @@ All colors and brand-specific styles live in references/color-palette.md. Read i
 
 To make this skill produce diagrams in your own brand style, edit color-palette.md. Everything else in this file is universal design methodology and Excalidraw best practices.
 
+## Default Theme (White Background)
+Use a white background with a restrained, high-contrast palette.
+- viewBackgroundColor: #FFFFFF
+- fontFamily: 3
+- roughness: 0
+- opacity: 100
+- strokeWidth: 2 for shapes, 1 for dividers
+- gridSize: 20
+
+## Header and Divider Pattern
+When a diagram needs a title area, use:
+- Title text 28 to 32 px, all caps when appropriate
+- Subtitle text 16 to 18 px, color text_secondary
+- Divider line with line_muted and dashed strokeStyle
+
+## Section Layout Pattern (Philosophy + Workflow + Toolkit)
+For instructional diagrams, prefer a three-section layout:
+1) Philosophy section with a bold header and short paragraph text
+2) Workflow section with a left-to-right flow using ellipse → diamond → rectangle → ellipse
+3) Toolkit section with light gray step cards stacked vertically
+
+## Step Card Pattern
+Use soft gray rounded rectangles with short labels for steps. Use muted text for labels and keep spacing consistent.
+
+## Flow Cluster Pattern
+Use a tight cluster of rounded shapes with arrows and small annotation text under each step. Center arrows on shape midlines and keep uniform gaps between shapes (35–45 px recommended). If a diamond is wider, increase adjacent arrow lengths to preserve alignment.
+
 ---
 
 ## Core Philosophy
