@@ -7,3 +7,6 @@
 
 ## 2026-03-04 (EST)
 - 09:24 — Sleep: slept most of the night, woke around 6:30 a.m.; felt sluggish/tired on waking. Context: n/a. Notes: n/a.
+
+## 2026-03-05 (EST)
+- 10:11 — Sleep: went to bed around 10:30 p.m., awake at 4:00 a.m.; sleep quality 3, woke very tired and sluggish. Context: n/a. Notes: n/a.
