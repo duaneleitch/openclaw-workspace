@@ -25,3 +25,7 @@
 ## 2026-03-05 (EST)
 - 10:11 — Meal: breakfast, bowl of cereal with milk; coffee. Context: caffeine. Symptoms: not reported. Notes: n/a.
 - 19:15 — Meal: dinner, two breaded chicken burgers with cheese; ginger ale. Context: n/a. Symptoms: not reported. Notes: n/a.
+
+## 2026-03-06 (EST)
+- 10:01 — Meal: breakfast, none. Context: n/a. Symptoms: not reported. Notes: skipped breakfast.
+- 14:30 — Meal: lunch, 5 tangerines. Context: n/a. Symptoms: not reported. Notes: n/a.

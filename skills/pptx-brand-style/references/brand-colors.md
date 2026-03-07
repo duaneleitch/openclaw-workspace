@@ -11,12 +11,13 @@
 - Warm Grey 2: #EEEBE1
 - Warm Grey 1: #F5F3ED
 - Warm Off White: #FBFAF7
+- Accent Yellow: #F2C94C
 
 ## Usage
 - Backgrounds: True White (default)
 - Primary text: Warm Black
 - Titles and emphasis: Deep Blue
-- Accents and highlights: Bright Blue, Bright Seagreen
+- Accents and highlights: Bright Blue, Bright Seagreen, Accent Yellow
 - Secondary text: Warm Dark Grey
 - Dividers and soft lines: Warm Grey 2
 - Cards and secondary areas: Warm Grey 1

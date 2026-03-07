@@ -117,6 +117,12 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
+## Reference Sources
+
+When answering Diversys API support questions, always consult these sources first as the primary knowledge base:
+- /mnt/obsidian/05_Diversys/Product/API_Knowledge (all subfolders and files)
+- /mnt/obsidian/05_Diversys/Product/Training (all subfolders and files)
+
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
 **📝 Platform Formatting:**
