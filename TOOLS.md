@@ -38,3 +38,69 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+## OpenClaw CLI — Verified Command Syntax
+
+### cron
+- List jobs: `openclaw cron list`
+- Delete job: `openclaw cron delete <uuid>` (positional, no --id)
+- Edit job: `openclaw cron edit <uuid> --cron "expr"` (positional id, use --cron not --schedule)
+- Run history: `openclaw cron runs --id <uuid>` (requires --id flag)
+
+### message
+- Send to Discord channel: `openclaw message send --channel discord --target channel:<channel-id> --message "text"`
+- alfred-main channel id: 1478436599074258954
+- alfred-ops channel id: 1478436598453375017
+
+### config
+- Read value: `openclaw config get <key>`
+- Set scalar: `openclaw config set <key> value`
+- Set array: `openclaw config set <key> '["/path1", "/path2"]'`
+
+### gateway
+- Restart: `openclaw gateway restart`
+- Status: `openclaw gateway status`
+
+### General Rule
+When unsure of a subcommand's flags, run `openclaw <command> --help` before providing syntax.
+
+## openclaw cron edit — Available Options
+Key options for `openclaw cron edit <uuid>`:
+- `--channel <channel>` — Delivery channel (e.g. discord)
+- `--to <dest>` — Delivery destination (Discord channel: `channel:<id>`, user id, Telegram chatId, E.164)
+- `--cron <expr>` — Set cron expression
+- `--every <duration>` — Set interval (e.g. 10m, 1h)
+- `--at <when>` — One-shot time (ISO or duration like 20m)
+- `--name <name>` — Rename the job
+- `--message <text>` — Set agent turn payload
+- `--model <model>` — Model override
+- `--session <target>` — Session target (main|isolated)
+- `--session-key <key>` — Route to specific session
+- `--tz <iana>` — Timezone for cron expressions
+- `--enable` / `--disable` — Enable or disable job
+- `--timeout-seconds <n>` — Timeout for agent jobs
+- `--announce` — Announce summary to chat (subagent-style)
+- `--thinking <level>` — Thinking level for agent jobs
+- `--light-context` — Lightweight bootstrap context
+- `--delete-after-run` — Delete one-shot job after success
+
+## OpenClaw Docs Location
+All tool docs: `/home/duane/.npm-global/lib/node_modules/openclaw/docs/tools/`
+
+Key docs available:
+- exec.md — shell execution, host/security/ask config
+- browser.md — browser automation
+- web.md — web search/fetch
+- subagents.md — multi-agent orchestration
+- skills.md — skill system
+- llm-task.md — LLM subtasks
+- pdf.md — PDF handling
+- apply-patch.md — structured file edits
+- loop-detection.md — loop prevention
+- agent-send.md — cross-agent messaging
+
+## Exec Tool Config (Applied Fix)
+- tools.exec.host = gateway (not sandbox — sandboxing is off by default, sandbox fails closed)
+- tools.exec.security = full
+- tools.exec.ask = off
+- channels.discord.capabilities = ["exec"]
