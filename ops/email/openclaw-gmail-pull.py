@@ -19,8 +19,7 @@ MAX_RESULTS = "20"
 OPENCLAW_BIN = "/home/duane/.npm-global/bin/openclaw"
 GOG_BIN = "gog"
 
-os.environ["GOG_KEYRING_PASSWORD"] = ""
-
+# GOG_KEYRING_PASSWORD is provided via systemd user environment
 os.makedirs(DEFAULT_DIR, exist_ok=True)
 
 SUPPORT_INFO_PROMPTS = [
