@@ -5,6 +5,7 @@
 - **Name:** Duane Leitch
 - **What to call them:** Duane
 - **Timezone:** EST (Ottawa, Canada)
+- **Operational time rule:** Treat all health check-ins, summaries, and reminders as EST-based in messages and notifications, regardless of system UTC.
 - **Location:** Ottawa, Ontario, Canada (Ottawa / Kanata region)
 - **Current Company:** Diversys Software, Inc.
 - **Current Title:** Vice President, Client Enablement and Success

@@ -1,3 +1,11 @@
+"""DEPRECATED: legacy styling script.
+
+Do not use. The AI deck styling is now handled exclusively by
+skills/pptx-brand-style/scripts/apply_brand_style.py.
+
+This file is kept only for historical reference.
+"""
+
 from pathlib import Path
 from pptx import Presentation
 from pptx.dml.color import RGBColor

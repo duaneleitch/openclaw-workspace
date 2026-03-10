@@ -28,4 +28,9 @@
 
 ## 2026-03-06 (EST)
 - 10:01 — Meal: breakfast, none. Context: n/a. Symptoms: not reported. Notes: skipped breakfast.
-- 14:30 — Meal: lunch, 5 tangerines. Context: n/a. Symptoms: not reported. Notes: n/a.
+- 18:00 — Meal: dinner, butter chicken and naan bread. Context: rich/spicy dinner, evening meal. Symptoms: overnight heartburn and stomach rumbling (severity 4/10), resolved by morning; woke early ~3:00 a.m. Notes: monitor for pattern with rich/spicy dinners.
+
+## 2026-03-09 (EST)
+- 08:00 — Meal: breakfast, none. Context: coffee only. Symptoms: not reported. Notes: skipped breakfast.
+- 12:00 — Meal: lunch, none. Context: coffee only so far today. Symptoms: not reported. Notes: skipped lunch.
+2026-03-09 18:52 EST – Dinner: Butter chicken with naan bread

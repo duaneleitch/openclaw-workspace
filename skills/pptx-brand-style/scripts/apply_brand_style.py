@@ -3,6 +3,7 @@ from pptx import Presentation
 from pptx.util import Inches,Pt
 from pptx.dml.color import RGBColor
 from pptx.enum.text import PP_ALIGN
+from pptx.enum.shapes import MSO_SHAPE_TYPE
 NAVY=RGBColor(0x23,0x16,0x8B)
 TEAL=RGBColor(0x5D,0xDE,0xD2)
 WHITE=RGBColor(0xFF,0xFF,0xFF)
@@ -16,8 +17,10 @@ def set_bg(slide,rgb):
 	f.solid()
 	f.fore_color.rgb=rgb
 def remove_old(slide):
-	bad=[s for s in slide.shapes if s.shape_type in [13,17]]
-	for s in bad: s._element.getparent().remove(s._element)
+	bad=[s for s in slide.shapes if s.shape_type in [MSO_SHAPE_TYPE.AUTO_SHAPE, MSO_SHAPE_TYPE.PICTURE]]
+	for s in bad:
+		# remove legacy background blobs and old pictures; placeholders are preserved elsewhere
+		s._element.getparent().remove(s._element)
 def add_footer(slide,sw,sh):
 	s=slide.shapes.add_shape(1,0,sh-FOOTER_H,sw,FOOTER_H)
 	s.fill.solid()
@@ -37,13 +40,17 @@ def add_logo(slide,top=None,left=Inches(0.15)):
 		slide.shapes.add_picture(LOGO,left,top,width=LOGO_SZ,height=LOGO_SZ)
 	except Exception as e:
 		print(f"Logo warning: {e}")
-def style_tf(tf,color,bold=None,align=None):
+def style_tf(tf,color,bold=None,align=None,size=None):
 	for para in tf.paragraphs:
-		if align is not None: para.alignment=align
+		if align is not None:
+			para.alignment=align
 		for run in para.runs:
 			run.font.name=FONT
 			run.font.color.rgb=color
-			if bold is not None: run.font.bold=bold
+			if bold is not None:
+				run.font.bold=bold
+			if size is not None:
+				run.font.size=size
 def fix_positions(slide,sw,sh):
 	for shape in slide.shapes:
 		if not shape.is_placeholder: continue
@@ -76,11 +83,14 @@ def apply_brand_layout(prs):
 		add_footer(slide,sw,sh)
 		add_logo(slide)
 		for shape in slide.shapes:
-			if not shape.is_placeholder: continue
+			if not shape.is_placeholder:
+				continue
 			if shape.placeholder_format.idx==0:
-				style_tf(shape.text_frame,TEAL,bold=True,align=PP_ALIGN.CENTER)
+				# Title: keep existing size, just apply color/weight/alignment
+				style_tf(shape.text_frame, TEAL, bold=True, align=PP_ALIGN.CENTER)
 			else:
-				style_tf(shape.text_frame,GREY)
+				# Body content: set to 24pt
+				style_tf(shape.text_frame, GREY, size=Pt(24))
 		fix_positions(slide,sw,sh)
 if __name__=="__main__":
 	path=sys.argv[1]
