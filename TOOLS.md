@@ -65,8 +65,9 @@ Add whatever helps you do your job. This is your cheat sheet.
 When unsure of a subcommand's flags, run `openclaw <command> --help` before providing syntax.
 
 ### Channel Logging Rules
-- Health & wellness channels (e.g., Discord #health-and-wellness) must never receive internal tooling notices (e.g., `Ran /home...`, cron status, or exec logs).
+- Health & wellness channels (e.g., Discord #health-and-wellness) must never receive internal tooling notices (e.g., `Ran /home...`, cron status, exec logs, or script-trigger messages like `Breakfast health check triggered via /home/...`).
 - All operational / internal tooling chatter belongs only in the ops channel (Discord alfred-ops, id: 1478436598453375017), not in #health-and-wellness.
+- Health & wellness channels should only see: check-in prompts, your logged inputs, and any brief health feedback you explicitly request.
 
 ## openclaw cron edit — Available Options
 Key options for `openclaw cron edit <uuid>`:
