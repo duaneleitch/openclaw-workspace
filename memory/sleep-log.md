@@ -17,3 +17,4 @@
 
 ## 2026-03-09 (EST)
 - 03:00 — Sleep: woke very early around 3:00 a.m. after previous evening butter chicken and naan dinner; heartburn and stomach rumbling overnight, symptoms about 4/10, resolved by morning. Context: rich/spicy dinner around 6:00 p.m. previous evening. Notes: track correlation between rich/spicy evening meals and early waking/heartburn.
+2026-03-11 – Sleep: 23:00 to 06:00 EST (about 7 hours), quality: 'okay'
