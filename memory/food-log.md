@@ -33,12 +33,25 @@
 ## 2026-03-09 (EST)
 - 08:00 — Meal: breakfast, none. Context: coffee only. Symptoms: not reported. Notes: skipped breakfast.
 - 12:00 — Meal: lunch, none. Context: coffee only so far today. Symptoms: not reported. Notes: skipped lunch.
-2026-03-09 18:52 EST – Dinner: Butter chicken with naan bread
-2026-03-10 10:30 EST – Breakfast: Coffee only (no solid food)
-2026-03-10 15:29 EST – Lunch: Breaded chicken burger
-2026-03-10 18:14 EST – Dinner: Oven baked chicken leg, potatoes, and two pieces of cheese
-2026-03-11 10:23 EST – Breakfast: Two fried eggs, toast, and a piece of ham
-2026-03-11 11:14 EST – Symptoms only: stomach growling, no pain reported. Context: mid day check in, no additional details provided.
-2026-03-11 20:16 EST – Dinner: Rack of ribs, Caesar salad, three beers, and a chicken sandwich. Context: alcohol; larger dinner. Symptoms: not reported. Notes: logged from brief Discord check in.
-2026-03-12 10:14 EST – Breakfast: coffee only (no food). Context: skipped breakfast. Symptoms: none reported.
-2026-03-12 12:53 EST – Lunch: oven baked chicken leg and potatoes, glass of water. Context: standard lunch. Symptoms: not reported.
+- 18:52 — Meal: dinner, butter chicken with naan bread. Context: rich/spicy dinner. Symptoms: not reported. Notes: logged from prior Discord check-in.
+
+## 2026-03-10 (EST)
+- 10:30 — Meal: breakfast, coffee only (no solid food). Context: caffeine; skipped solid breakfast. Symptoms: not reported.
+- 15:29 — Meal: lunch, breaded chicken burger. Context: standard lunch. Symptoms: not reported.
+- 18:14 — Meal: dinner, oven baked chicken leg, potatoes, and two pieces of cheese. Context: standard dinner. Symptoms: not reported.
+
+## 2026-03-11 (EST)
+- 10:23 — Meal: breakfast, two fried eggs, toast, and a piece of ham. Context: standard breakfast. Symptoms: not reported.
+- 11:14 — Symptoms only: stomach growling, no pain reported. Context: mid day check in. Notes: no additional details provided.
+- 20:16 — Meal: dinner, rack of ribs, Caesar salad, three beers, and a chicken sandwich. Context: alcohol; larger dinner. Symptoms: not reported. Notes: logged from brief Discord check in.
+
+## 2026-03-12 (EST)
+- 10:14 — Meal: breakfast, coffee only (no food). Context: skipped breakfast. Symptoms: none reported.
+- 12:53 — Meal: lunch, oven baked chicken leg and potatoes, glass of water. Context: standard lunch. Symptoms: not reported.
+- 20:08 — Meal: dinner, hamburger with cheese and dill pickle. Context: standard dinner. Symptoms: not reported.
+
+## 2026-03-13 (EST)
+- 11:10 — Meal: breakfast, coffee only. Context: light breakfast. Symptoms: not reported.
+- 12:40 — Symptoms only: no stomach issues or other symptoms reported at this time. Context: midday check-in. Notes: severity not applicable (no symptoms).
+- 13:30 — Meal: lunch, two smoked meat sandwiches. Context: standard lunch. Symptoms: not reported. Notes: time approximate based on Discord check-in.
+- 18:30 — Meal: dinner, hamburger, fries, and a pogo. Context: standard dinner; fried foods. Symptoms: none reported at time of check-in. Notes: time approximate based on Discord check-in.
