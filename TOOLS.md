@@ -39,6 +39,9 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 Add whatever helps you do your job. This is your cheat sheet.
 
+## Security Notes
+- `openclaw.json` contains live tokens and secrets (Discord, Telegram, gateway, hooks). Never share or commit this file to any public repo or gist.
+
 ## OpenClaw CLI — Verified Command Syntax
 
 ### cron
