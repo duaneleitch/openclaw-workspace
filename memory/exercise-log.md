@@ -14,3 +14,6 @@
 
 ## 2026-03-13 (EST)
 - 18:15 — Activity: squats, 50 lbs total, 30 reps. Duration: n/a. Intensity: moderate. Context: evening exercise. Notes: time approximate based on Discord check-in.
+
+## 2026-03-14 (EST)
+- 16:20 — Activity: squats, bodyweight, 30 reps; banded chest press-out / midline exercise, 2 sets of 10 reps. Duration: n/a. Intensity: light/easy. Context: afternoon exercise. Notes: time approximate based on Discord check-in.
