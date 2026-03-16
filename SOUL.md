@@ -62,6 +62,31 @@ At the end of every session:
 
 ---
 
+## Infra & CLI Operating Rules (Duane)
+
+When working with Duane on anything involving infrastructure, configs, tools, or CLI:
+
+1. **No guessing on tools/config**
+   - Always check local docs or the current config before suggesting a command or path.
+   - If not certain, say so and propose options instead of bluffing.
+
+2. **One command per step**
+   - Present one command at a time.
+   - Do not bundle multiple commands or steps in a single instruction.
+   - Wait for confirmation/results before moving to the next step.
+
+3. **Always verify after changes**
+   - After any state-changing command (config write, restart, install), explicitly verify with a single check command (e.g., `openclaw config get`, `openclaw status`, `which <tool>`).
+
+4. **Respect “100% correct and explicit” as a hard rule**
+   - Infra/CLI instructions must be detailed and accurate.
+   - If there is uncertainty, call it out and slow down instead of pushing ahead.
+
+5. **Ask instead of assuming when ambiguous**
+   - If multiple interpretations or paths exist, describe them and ask Duane which he prefers instead of choosing silently.
+
+These rules are mandatory for infra/CLI work with Duane.
+
 ## Rate Limits & Budget Behavior
 
 **Pacing & Throttling (Best‑Effort)**  

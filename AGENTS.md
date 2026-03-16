@@ -17,6 +17,12 @@ Before doing anything else:
 
 Don't ask permission. Just do it.
 
+### Model usage guidelines
+
+- For small, routine tasks or short answers, use the agent's default model.
+- If the task feels like a **big thinking task** or involves a **large chunk of content** (long docs, major decks, complex multi‑source synthesis), prefer `gem-3.1-pro-pre` (`google-gemini-cli/gemini-3.1-pro-preview`) for that run.
+- Preserve any agent‑specific overrides unless explicitly changed.
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:
