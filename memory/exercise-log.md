@@ -20,3 +20,6 @@
 
 ## 2026-03-15 (EST)
 - 13:30 — Activity: squats, 50 lbs total, 30 reps. Duration: n/a. Intensity: moderate (assumed). Context: early afternoon exercise. Notes: time approximate based on Discord check-in.
+
+## 2026-03-16 (EST)
+- 16:30 — Activity: squats, 50 lbs total, 50 reps; deadlifts, 25 lbs, 10 reps. Duration: n/a. Intensity: moderate (assumed). Context: low water intake today. Notes: time approximate based on Discord check-in.
