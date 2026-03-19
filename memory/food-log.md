@@ -65,6 +65,11 @@
 - 12:00 — Meal: late breakfast, oatmeal with brown sugar and coffee. Context: caffeine; single combined morning meal. Symptoms: none; feeling fine and focused at time of check-in. Notes: time approximate based on Discord check-in.
 - 19:30 — Meal: dinner, bowl of chili, two pieces of garlic bread, and chips (served with salsa) with a large glass of water. Context: standard dinner; moderate portion. Symptoms: none reported at time of check-in. Notes: time approximate based on Discord check-in; portion felt about right.
 
+## 2026-03-18 (EST)
+- 11:10 — Meal: breakfast, coffee only. Context: caffeine; skipped solid breakfast. Symptoms: not reported. Notes: time approximate based on Discord check-in.
+- 14:00 — Meal: lunch, two pieces of fried chicken, fries, and coleslaw. Context: fried meal. Symptoms: not reported. Notes: time approximate based on Discord check-in.
+- 18:00 — Meal: dinner, bowl of chili with corn chips. Context: standard dinner. Symptoms: none reported. Notes: time approximate based on Discord check-in. No exercise today.
+
 ## 2026-03-17 (EST)
 - 11:55 — Meal: breakfast, skipped; coffee only. Context: caffeine; no exercise so far. Symptoms: not reported. Notes: time approximate based on Discord check-in.
 - 14:00 — Meal: lunch, two pieces of fried chicken, coleslaw, fries, and a glass of water. Context: fried meal; standard hydration. Symptoms: none reported.
