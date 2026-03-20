@@ -67,7 +67,8 @@
 
 ## 2026-03-19 (EST)
 - 11:00 — Meal: breakfast, skipped; coffee only. Context: caffeine. Symptoms: not reported.
-- 14:00 — Meal: lunch, smoked meat sandwich with a glass of water. Context: standard lunch; good hydration. Symptoms: not reported. Notes: no exercise today; time approximate based on Discord check-in.
+- 14:00 — Meal: lunch, smoked meat sandwich with a glass of water. Context: standard lunch; good hydration. Symptoms: not reported. Notes: time approximate based on Discord check-in.
+- 20:00 — Meal: dinner, breaded chicken burger and fries with a Coke. Context: fried meal; soda. Symptoms: not reported. Notes: no exercise today; time approximate based on Discord check-in.
 
 ## 2026-03-18 (EST)
 - 11:10 — Meal: breakfast, coffee only. Context: caffeine; skipped solid breakfast. Symptoms: not reported. Notes: time approximate based on Discord check-in.

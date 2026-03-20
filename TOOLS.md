@@ -41,6 +41,7 @@ Add whatever helps you do your job. This is your cheat sheet.
 
 ## Security Notes
 - `openclaw.json` contains live tokens and secrets (Discord, Telegram, gateway, hooks). Never share or commit this file to any public repo or gist.
+- **heartbeat-llama / ollama/llama3.2:3b:** If using a small local model (<=300B params) for the heartbeat agent, you MUST set `tools.deny = ["web_search", "web_fetch", "browser"]` on that agent. Small models are vulnerable to prompt injection from untrusted web content. This model should never appear in the global fallback chain — keep it scoped to heartbeat only.
 
 ## OpenClaw CLI — Verified Command Syntax
 
