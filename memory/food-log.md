@@ -65,6 +65,10 @@
 - 12:00 — Meal: late breakfast, oatmeal with brown sugar and coffee. Context: caffeine; single combined morning meal. Symptoms: none; feeling fine and focused at time of check-in. Notes: time approximate based on Discord check-in.
 - 19:30 — Meal: dinner, bowl of chili, two pieces of garlic bread, and chips (served with salsa) with a large glass of water. Context: standard dinner; moderate portion. Symptoms: none reported at time of check-in. Notes: time approximate based on Discord check-in; portion felt about right.
 
+## 2026-03-20 (EST)
+- 12:15 — Meal: breakfast, skipped; coffee only. Context: caffeine; poor sleep night prior. Symptoms: none reported. Notes: time approximate based on Discord check-in.
+- 12:40 — Meal: lunch, breaded chicken burger and a Pepsi. Context: soda. Symptoms: not reported. Notes: time approximate based on Discord check-in.
+
 ## 2026-03-19 (EST)
 - 11:00 — Meal: breakfast, skipped; coffee only. Context: caffeine. Symptoms: not reported.
 - 14:00 — Meal: lunch, smoked meat sandwich with a glass of water. Context: standard lunch; good hydration. Symptoms: not reported. Notes: time approximate based on Discord check-in.

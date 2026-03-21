@@ -23,3 +23,4 @@
 2026-03-15 12:00 EST – Sleep: slept very well, self-rated 4/5. Context: previous evening chicken wings dinner and water; no noted disturbances. Notes: woke feeling fine and focused.
 2026-03-16 16:30 EST – Sleep: "okay" night, self-rated 3/5. Context: no current symptoms; energy okay. Notes: exact times not provided.
 2026-03-18 11:10 EST – Sleep: asleep ~22:30, woke 06:00 EST (~7.5 hours), quality 3/5. Context: previous evening pumpkin pie only for dinner. Notes: time approximate.
+2026-03-20 12:15 EST – Sleep: asleep ~02:00, woke 07:00 EST (~5 hours), quality 3/5. Context: late night; didn't sleep well. Symptoms: none reported next morning.
