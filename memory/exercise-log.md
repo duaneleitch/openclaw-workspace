@@ -21,5 +21,11 @@
 ## 2026-03-15 (EST)
 - 13:30 — Activity: squats, 50 lbs total, 30 reps. Duration: n/a. Intensity: moderate (assumed). Context: early afternoon exercise. Notes: time approximate based on Discord check-in.
 
+## 2026-03-22 (EST)
+- 10:00 — Activity: furniture moving, ~30 minutes. Duration: 30 min. Intensity: moderate. Context: physical labour. Symptoms: none reported.
+
+## 2026-03-21 (EST)
+- 10:00 — Activity: furniture moving, ~3 hours. Duration: 180 min. Intensity: moderate/hard. Context: physical labour; sustained effort. Symptoms: none reported.
+
 ## 2026-03-16 (EST)
 - 16:30 — Activity: squats, 50 lbs total, 50 reps; deadlifts, 25 lbs, 10 reps. Duration: n/a. Intensity: moderate (assumed). Context: low water intake today. Notes: time approximate based on Discord check-in.

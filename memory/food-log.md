@@ -65,7 +65,17 @@
 - 12:00 — Meal: late breakfast, oatmeal with brown sugar and coffee. Context: caffeine; single combined morning meal. Symptoms: none; feeling fine and focused at time of check-in. Notes: time approximate based on Discord check-in.
 - 19:30 — Meal: dinner, bowl of chili, two pieces of garlic bread, and chips (served with salsa) with a large glass of water. Context: standard dinner; moderate portion. Symptoms: none reported at time of check-in. Notes: time approximate based on Discord check-in; portion felt about right.
 
+## 2026-03-22 (EST)
+- 09:00 — Meal: breakfast, Egg McMuffin, hash brown, and coffee. Context: caffeine; light morning meal. Symptoms: none reported. Notes: time approximate based on Discord check-in.
+- 14:50 — Note: no lunch. Energy: tired. Context: poor sleep night prior (~3 hrs).
+- 19:10 — Meal: dinner, pasta with shrimp, naan bread, and Pepsi. Context: soda; standard dinner. Symptoms: not reported. Notes: time approximate based on Discord check-in.
+
+## 2026-03-21 (EST)
+- 10:30 — Meal: brunch, eggs Benedict, home fries, waffle, and coffee. Context: caffeine; larger brunch. Symptoms: none reported. Notes: time approximate based on Discord check-in.
+- 18:00 — Meal: dinner, 12oz steak, salad, baked potato, chocolate cake for dessert, and 3 glasses of wine. Context: alcohol; larger dinner with dessert. Symptoms: none reported. Notes: time approximate based on Discord check-in.
+
 ## 2026-03-20 (EST)
+- 18:30 — Meal: dinner, pasta with shrimp and rose sauce, salad, and two glasses of wine. Context: alcohol; evening meal. Symptoms: none reported. Notes: time approximate based on Discord check-in.
 - 12:15 — Meal: breakfast, skipped; coffee only. Context: caffeine; poor sleep night prior. Symptoms: none reported. Notes: time approximate based on Discord check-in.
 - 12:40 — Meal: lunch, breaded chicken burger and a Pepsi. Context: soda. Symptoms: not reported. Notes: time approximate based on Discord check-in.
 
