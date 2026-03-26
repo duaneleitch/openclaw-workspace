@@ -1,6 +1,44 @@
-# Ignore everything by default
-*
+# Sensitive files - never commit
+openclaw.json
+*.json
 
-# Allow these files
-!openclaw.json
-!.gitignore
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+tmp_*
+*.tmp
+*.log
+
+# Binary/generated files
+*.docx
+*.pptx
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Large data directories
+lancedb/
+
+# Skills (managed separately)
+*.skill
+
+# Track these workspace files
+!SOUL.md
+!USER.md
+!IDENTITY.md
+!AGENTS.md
+!MEMORY.md
+!HEARTBEAT.md
+!TOOLS.md
+!OPS_GATEWAY_RECOVERY.md
+!RESTORE.md
+!memory/
+!agents/
+!templates/
+!skills/
