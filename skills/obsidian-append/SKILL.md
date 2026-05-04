@@ -15,7 +15,7 @@ User will call the slash command with:
 `Relative/Path.md | Text to append`
 
 Example:
-`00_Inbox/2026-02-27_195124__OpenClaw test note.md | Add this line`
+`02_General_Info/How_To/2026-02-27_195124__OpenClaw test note.md | Add this line`
 
 ## Behavior
 - Split on the first `|` into path and text (trim whitespace).

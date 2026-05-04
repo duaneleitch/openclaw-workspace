@@ -2,7 +2,7 @@
 
 **Added:** 2026-03-20
 **Source:** Internal training session, March 19, 2026 (Mark, Alan, Dejan/Dan)
-**Full note:** /mnt/obsidian/05_Diversys/Product/Training/Business_Intelligence/BI_Module_Overview_and_Demo_2026-03-19.md
+**Full note:** /mnt/obsidian/00_Alfred/10_Diversys/Product/Training/Business_Intelligence/BI_Module_Overview_and_Demo_2026-03-19.md
 
 ---
 

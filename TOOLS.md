@@ -93,6 +93,17 @@ Key options for `openclaw cron edit <uuid>`:
 - `--light-context` — Lightweight bootstrap context
 - `--delete-after-run` — Delete one-shot job after success
 
+## Obsidian Vault Mount (VPS → Mac mini)
+- Mount path on VPS: `/mnt/obsidian`
+- Source: `duaneleitch@100.70.184.4:/Volumes/AI-Storage/Obsidian` (Mac mini external drive via Tailscale)
+- Protocol: **SSHFS** (NFS and SMB failed on macOS Tahoe — NFS exports not registered, SMB forces read-only on external volumes for remote Linux clients)
+- SSH key: `/home/duane/.ssh/id_ed25519` (generated on VPS, public key added to Mac mini `~/.ssh/authorized_keys`)
+- Systemd unit: `/etc/systemd/system/mnt-obsidian.mount` (enabled, TimeoutSec=120)
+- If mount drops after reboot: `fusermount3 -u /mnt/obsidian && sshfs duaneleitch@100.70.184.4:/Volumes/AI-Storage/Obsidian /mnt/obsidian -o uid=1001,gid=1001,reconnect,ServerAliveInterval=30`
+- Mac mini must be on and Tailscale connected for mount to work
+- Mac mini Tailscale IP: `100.70.184.4`
+- Remote Login (SSH) must be enabled on Mac mini: System Settings → General → Sharing → Remote Login: On
+
 ## OpenClaw Docs Location
 All tool docs: `/home/duane/.npm-global/lib/node_modules/openclaw/docs/tools/`
 

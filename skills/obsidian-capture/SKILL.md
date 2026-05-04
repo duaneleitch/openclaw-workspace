@@ -1,6 +1,6 @@
 ---
 name: obsidian-capture
-description: Capture a new note into Obsidian 00_General_Info/How_To via OpenClaw.
+description: Capture a new note into Obsidian 02_General_Info/How_To via OpenClaw.
 user-invocable: true
 ---
 

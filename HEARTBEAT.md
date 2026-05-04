@@ -18,6 +18,13 @@ Send a heartbeat update only if one or more of these are true:
 5. A blocked item needs a decision, approval, or missing input
 
 ## What to Check Each Heartbeat (Fast Scan)
+
+### 0) System Health
+- Check root disk usage with `df -h /`
+- If `/` is > 90% used, alert Duane with current usage and top OpenClaw disk consumers (e.g., `~/.openclaw/logs`) and propose safe cleanup (truncate oversized logs, not delete configs).
+- Check Obsidian mount: run `timeout 5 ls /mnt/obsidian/00_Alfred > /dev/null 2>&1 || echo STALE`
+- If mount is stale or missing, run `/home/duane/.local/bin/obsidian-mount-check.sh` to auto-remount and alert Duane if remount fails (Mac Mini may be offline).
+
 ### 1) Urgency and Deadlines
 Check for:
 - due soon commitments

@@ -3,6 +3,6 @@
 ## Knowledge Base
 
 When answering Diversys training, product, or enablement questions, always consult this source first as the primary knowledge base:
-- /mnt/obsidian/05_Diversys (all subfolders and files)
+- /mnt/obsidian/00_Alfred/10_Diversys (all subfolders and files)
 
-This covers all product, training, roles, support, client, and API knowledge. Any content added under 05_Diversys is automatically in scope.
+This covers all product, training, roles, support, client, and API knowledge. Any content added under 00_Alfred/10_Diversys is automatically in scope.

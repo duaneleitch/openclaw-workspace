@@ -1,0 +1,14 @@
+
+[Unit]
+Description=OpenClaw Gmail Watch (Pub/Sub -> webhooks)
+After=default.target
+
+[Service]
+Type=simple
+Environment=GOG_KEYRING_PASSWORD=%E{GOG_KEYRING_PASSWORD}
+ExecStart=/home/duane/.npm-global/bin/openclaw webhooks gmail run
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

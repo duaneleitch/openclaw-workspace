@@ -1,6 +1,6 @@
 ---
 name: obsidian-recent
-description: List recent notes in Obsidian 00_Inbox.
+description: List recent notes in Obsidian 02_General_Info/How_To.
 user-invocable: true
 ---
 

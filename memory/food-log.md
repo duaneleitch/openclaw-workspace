@@ -111,3 +111,93 @@
 - 11:10 — Meal: breakfast, two Egg McMuffins and a coffee. Context: caffeine; low energy morning; no water yet; mood calm; no exercise yet. Symptoms: none reported; energy low. Notes: time approximate based on Discord check-in.
 - 16:30 — Note: no lunch today; only a small drink of water reported by evening. Symptoms: none reported.
 - 18:30 — Meal: dinner, fried chicken, fries, coleslaw, and macaroni salad with a Pepsi. Context: fried meal; soda; low water overall today. Symptoms: not reported. Notes: time approximate based on Discord check-in.
+
+## 2026-04-15 (EST)
+- 08:53 — Exercise: none today.
+- 08:53 — Meal: breakfast, coffee. Context: caffeine only; skipped solid food.
+- 15:37 — Meal: late lunch, chicken sandwich. Context: standard lunch.
+- 19:00 — Meal: dinner, bowl of chili, corn chips, and a Coke. Context: soda. Symptoms: none reported.
+
+## 2026-04-16 (EST)
+- 08:44 — Exercise: none today. (reported with prior day dinner)
+- 08:44 — Meal: breakfast, coffee. Context: caffeine only; skipped solid food.
+- 15:00 — Meal: lunch, none. Context: skipped lunch.
+- 19:00 — Meal: dinner, bowl of pasta with meat sauce; Coke. Context: soda. Symptoms: none reported.
+
+## 2026-04-17 (EST)
+- 08:44 — Exercise: none today. (reported with prior day dinner)
+- 08:44 — Meal: breakfast, coffee. Context: caffeine only; skipped solid food.
+- 15:00 — Meal: lunch, none. Context: skipped lunch.
+- 19:36 — Meal: dinner, chicken, baked potato, and stuffing. Context: standard dinner. Symptoms: none reported.
+
+## 2026-05-03 (EST)
+- 09:51 — Meal: breakfast, Egg McMuffin and a coffee. Context: caffeine; standard breakfast.
+
+## 2026-05-02 (EST)
+- 18:00 — Exercise: walked and played 18 holes of golf.
+- 18:30 — Meal: dinner, burger, fries, and a beer. Context: alcohol; standard dinner.
+
+## 2026-05-01 (EST)
+- 10:26 — Meal: breakfast, coffee only. Context: caffeine only; skipped solid food.
+- 10:26 — Exercise: none yet today.
+
+## 2026-04-29 (EST)
+- 13:26 — Meal: breakfast, fruit. Context: light breakfast.
+- 13:26 — Meal: lunch, piece of pizza. Context: light lunch.
+- 13:26 — Exercise: playing a round of golf, taking a cart.
+
+## 2026-04-28 (EST)
+- 08:14 — Meal: breakfast, coffee. Context: caffeine only; skipped solid food.
+- 16:10 — Meal: lunch, hamburger. Context: standard lunch.
+- 16:10 — Exercise: none today.
+
+## 2026-04-27 (EST)
+- 10:29 — Meal: breakfast, bowl of cereal and a coffee. Context: caffeine; standard breakfast.
+- 12:00 — Meal: lunch, none. Context: skipped lunch.
+- 18:00 — Meal: dinner, hamburger and fries with a ginger ale. Context: soda; standard dinner.
+- 18:00 — Exercise: none today.
+
+## 2026-04-26 (EST)
+- 07:55 — Meal: breakfast, two eggs, two pancakes, fruit, 3 mini sausages, and a coffee. Context: caffeine; larger breakfast.
+- 12:00 — Meal: lunch, none. Context: skipped lunch.
+- 18:00 — Meal: dinner, pork chop on a bun with cheese, 3 mini potatoes, and two brownies for dessert. Context: dessert; standard dinner.
+- 18:00 — Exercise: 30 minute walk and house work, including opening the pool.
+
+## 2026-04-25 (EST)
+- 17:28 — Meal: breakfast, scrambled eggs, fruit, toast, and coffee. Context: caffeine; standard breakfast.
+- 17:28 — Meal: lunch, burger with fries and a beer. Context: alcohol; standard lunch.
+- 17:28 — Exercise: played 18 holes of golf, walked the whole round, about 2.5 hours.
+
+## 2026-04-24 (EST)
+- 20:00 — Meal: dinner, chicken pot pie, 6 chicken nuggets, cheese and cucumber, and a Grape Crush. Context: soda; larger dinner.
+
+## 2026-04-23 (EST)
+- 13:31 — Meal: breakfast, coffee. Context: caffeine only; skipped solid food.
+- 13:31 — Meal: lunch, bun with peanut butter. Context: light lunch.
+- 13:31 — Exercise: none today.
+
+## 2026-04-22 (EST)
+- 11:11 — Meal: breakfast, coffee. Context: caffeine only; skipped solid food.
+- 13:00 — Meal: lunch, bun with peanut butter. Context: light lunch.
+- 18:30 — Meal: dinner, ribs and Caesar salad with 3 beers. Context: alcohol; larger dinner.
+- 18:30 — Exercise: none today.
+
+## 2026-04-21 (EST)
+- 18:05 — Meal: breakfast, coffee. Context: caffeine only; skipped solid food.
+- 18:05 — Meal: lunch, bowl of Kraft Dinner. Context: standard lunch.
+- 18:05 — Meal: dinner, steak and fries. Context: standard dinner.
+- 18:06 — Exercise: none today.
+
+## 2026-04-20 (EST)
+- 07:42 — Meal: breakfast, coffee and an Egg McMuffin. Context: caffeine; standard breakfast.
+- 20:06 — Meal: dinner, bowl of chili with corn chips and a Coke. Context: soda; standard dinner.
+- 20:06 — Exercise: none today.
+
+## 2026-04-19 (EST)
+- 14:39 — Exercise: played 18 holes of golf and walked the whole 18 holes.
+- 14:41 — Meal: breakfast, coffee and two McDonald's McMuffins. Context: caffeine; standard breakfast.
+- 14:41 — Meal: lunch, chicken BLT sandwich, Caesar salad, and two beers. Context: alcohol; standard lunch.
+
+## 2026-04-18 (EST)
+- 17:07 — Exercise: changed tires on 2 vehicles; took about 2 hours.
+- 17:07 — Meal: lunch, salsa and chips; Coke. Context: soda.

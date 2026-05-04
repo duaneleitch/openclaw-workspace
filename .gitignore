@@ -42,3 +42,7 @@ lancedb/
 !agents/
 !templates/
 !skills/
+
+# Large local backup archives
+backups/*.tar.gz
+*.tar.gz

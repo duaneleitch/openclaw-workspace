@@ -25,3 +25,14 @@
 2026-03-18 11:10 EST – Sleep: asleep ~22:30, woke 06:00 EST (~7.5 hours), quality 3/5. Context: previous evening pumpkin pie only for dinner. Notes: time approximate.
 2026-03-20 12:15 EST – Sleep: asleep ~02:00, woke 07:00 EST (~5 hours), quality 3/5. Context: late night; didn't sleep well. Symptoms: none reported next morning.
 2026-03-22 09:00 EST – Sleep (Sat night): ~3 hours total, terrible sleep, quality 1/5. Context: 3 glasses of wine at dinner; physical labour day (3hrs furniture moving); larger dinner with dessert. Notes: worst sleep logged to date.
+
+2026-03-31 EST – Sleep: about 5 hours, seemed good. Quality: not rated but described as good. Notes: short sleep.
+
+2026-04-03 EST – Sleep: fell asleep ~11:00 p.m., woke ~9:00 a.m. (about 10 hours). Quality: 3/5 (okay, not great). Context: previous night. Notes: logged from Discord check-in.
+
+2026-04-20 EST – Sleep: about 7.5 hours, slept pretty well. Notes: logged from Discord check-in.
+2026-04-21 EST – Sleep: about 3 hours. Context: sleep has not been good. Notes: Monday night.
+2026-04-22 EST – Sleep: about 6 hours. Context: sleep has not been good. Notes: last night.
+2026-04-27 EST – Sleep: about 8 hours, described as good sleep, but took a sleeping pill and woke up tired. Context: sleeping pill used. Notes: woke up tired despite duration.
+2026-04-29 EST – Sleep: about 6 hours. Context: short sleep. Notes: logged from Discord check-in.
+2026-05-03 EST – Sleep: about 7 hours, good sleep. Notes: logged from Discord check-in.

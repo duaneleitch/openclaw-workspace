@@ -7,7 +7,7 @@ This guide explains how to use the Diversys master template when you (or Alfred)
 ## 1. Where the Master Template Lives
 
 **File:** `Diversys_Master_Template_v1.pptx`  
-**Folder:** `/mnt/obsidian/20_PowerPoint/Templates/`
+**Folder:** `/mnt/obsidian/00_Alfred/40_PowerPoint/Templates/`
 
 Treat this file as **read-only**. Always create a copy for a specific presentation.
 
@@ -43,9 +43,9 @@ When you build a new presentation yourself:
    - In your file system:  
      Copy `Diversys_Master_Template_v1.pptx` to:
      
-     `/mnt/obsidian/20_PowerPoint/Presentations/<New_Deck_Name>.pptx`
+     `/mnt/obsidian/00_Alfred/40_PowerPoint/Presentations/<New_Deck_Name>.pptx`
    - Example:  
-     `/mnt/obsidian/20_PowerPoint/Presentations/Customer_Onboarding_Strategy_v1.pptx`
+     `/mnt/obsidian/00_Alfred/40_PowerPoint/Presentations/Customer_Onboarding_Strategy_v1.pptx`
 
 2. **Open the new deck in PowerPoint**
 
@@ -85,8 +85,8 @@ When you build a new presentation yourself:
 
 When you want Alfred to build the deck for you, use a prompt like this:
 
-> Use `Diversys_Master_Template_v1.pptx` in `/mnt/obsidian/20_PowerPoint/Templates` as the base.  
-> Create a new deck named `Customer_Onboarding_Strategy_v1.pptx` in `/mnt/obsidian/20_PowerPoint/Presentations`.  
+> Use `Diversys_Master_Template_v1.pptx` in `/mnt/obsidian/00_Alfred/40_PowerPoint/Templates` as the base.  
+> Create a new deck named `Customer_Onboarding_Strategy_v1.pptx` in `/mnt/obsidian/00_Alfred/40_PowerPoint/Presentations`.  
 > Apply the same styling as the master (title size, footer, fonts, colors).  
 > Here is the slide content:
 > 1. Title slide – title: `Customer Onboarding Strategy`, Temp/date text: `April 2026`  
