@@ -198,6 +198,12 @@
 - 14:41 — Meal: breakfast, coffee and two McDonald's McMuffins. Context: caffeine; standard breakfast.
 - 14:41 — Meal: lunch, chicken BLT sandwich, Caesar salad, and two beers. Context: alcohol; standard lunch.
 
+## 2026-05-04 (EST)
+- 20:07 — Meal: breakfast, none. Context: skipped breakfast. Symptoms: not reported.
+- 20:07 — Meal: lunch, none. Context: skipped lunch. Symptoms: not reported.
+- 20:07 — Meal: snacks, a couple chocolate bars. Context: sweets between meals. Symptoms: not reported.
+- 20:07 — Meal: dinner, butter chicken, rice, naan, and 2 cans of ginger ale. Context: soda; richer dinner. Symptoms: not reported.
+
 ## 2026-04-18 (EST)
 - 17:07 — Exercise: changed tires on 2 vehicles; took about 2 hours.
 - 17:07 — Meal: lunch, salsa and chips; Coke. Context: soda.
