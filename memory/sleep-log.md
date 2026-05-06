@@ -36,3 +36,4 @@
 2026-04-27 EST – Sleep: about 8 hours, described as good sleep, but took a sleeping pill and woke up tired. Context: sleeping pill used. Notes: woke up tired despite duration.
 2026-04-29 EST – Sleep: about 6 hours. Context: short sleep. Notes: logged from Discord check-in.
 2026-05-03 EST – Sleep: about 7 hours, good sleep. Notes: logged from Discord check-in.
+2026-05-05 11:27 EST – Sleep: about 7 hours. Quality: 3/5. Context: n/a. Notes: logged from Discord check-in.

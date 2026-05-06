@@ -198,6 +198,9 @@
 - 14:41 — Meal: breakfast, coffee and two McDonald's McMuffins. Context: caffeine; standard breakfast.
 - 14:41 — Meal: lunch, chicken BLT sandwich, Caesar salad, and two beers. Context: alcohol; standard lunch.
 
+## 2026-05-05 (EST)
+- 11:27 — Meal: breakfast, coffee only. Context: caffeine only; skipped solid food. Symptoms: not reported.
+
 ## 2026-05-04 (EST)
 - 20:07 — Meal: breakfast, none. Context: skipped breakfast. Symptoms: not reported.
 - 20:07 — Meal: lunch, none. Context: skipped lunch. Symptoms: not reported.
