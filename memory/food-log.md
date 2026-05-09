@@ -118,6 +118,11 @@
 - 15:37 — Meal: late lunch, chicken sandwich. Context: standard lunch.
 - 19:00 — Meal: dinner, bowl of chili, corn chips, and a Coke. Context: soda. Symptoms: none reported.
 
+## 2026-05-08 (EST)
+- 15:23 — Meal: breakfast, none. Context: coffee only; skipped solid breakfast. Symptoms: not reported. Notes: logged from Discord check-in.
+- 15:23 — Meal: lunch, 4 chicken fingers. Context: standard lunch. Symptoms: not reported. Notes: logged from Discord check-in.
+- 19:01 — Meal: dinner, butter chicken and naan bread. Context: rich/spicy dinner. Symptoms: not reported. Notes: logged from Discord check-in.
+
 ## 2026-04-16 (EST)
 - 08:44 — Exercise: none today. (reported with prior day dinner)
 - 08:44 — Meal: breakfast, coffee. Context: caffeine only; skipped solid food.
