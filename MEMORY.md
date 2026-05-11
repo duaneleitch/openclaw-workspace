@@ -61,3 +61,8 @@
 - - Later audit conclusion for the same OpenClaw cleanup session: after parking the `plugins.allow` phantom-entry issue, no new hidden gateway/channel/cron outage was found. Core gateway, Telegram, Discord, cron engine, health reminder jobs, and the `allowInsecureAuth=false` fix were all functioning. - Remaining highest-priority issue identified by audit is security hardening for small local models: `openclaw security audit --deep` still reports `models.small_params Small models require sandboxing and web tools disabled` across multiple agent/model fallback paths, including `heartbeat-llama` and `cron-local`. - Additional unresolved hardening findings: `tools.exec.security_full_configured` and `security.trust_model.multi_user_heuristic` remain active warnings. These are real security/risk findings but not active functionality failures. - `plugins.allow_phantom_entries` was explicitly deferred by Duane after confirming it is a persistent runtime/config-management behavior rather than the primary functional break. [score=0.862 recalls=0 avg=0.620 source=memory/2026-05-03.md:21-24]
 <!-- openclaw-memory-promotion:memory:memory/2026-05-03.md:25:25 -->
 - - Log note worth revisiting later: `Blocked skill env overrides for agentmail: AGENTMAIL_API_KEY` appeared in recent logs, but it was not tied to current Telegram/Discord/gateway core failures. [score=0.862 recalls=0 avg=0.620 source=memory/2026-05-03.md:25-25]
+
+## Promoted From Short-Term Memory (2026-05-10)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-04.md:3:3 -->
+- - Nova Scotia trip address: 65 Lawrence St, Lunenburg, Nova Scotia. [score=0.862 recalls=0 avg=0.620 source=memory/2026-05-04.md:3-3]

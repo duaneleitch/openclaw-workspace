@@ -223,6 +223,17 @@
 - 20:07 — Meal: snacks, a couple chocolate bars. Context: sweets between meals. Symptoms: not reported.
 - 20:07 — Meal: dinner, butter chicken, rice, naan, and 2 cans of ginger ale. Context: soda; richer dinner. Symptoms: not reported.
 
+## 2026-05-10 (EST)
+- 10:54 — Meal: breakfast, two eggs, 4 pieces of bacon, toast, and coffee. Context: caffeine. Symptoms: not reported. Notes: logged from Discord check-in.
+- 15:45 — Meal: lunch, none. Context: skipped lunch. Symptoms: not reported. Notes: logged from Discord check-in; time approximate.
+- 19:45 — Meal: dinner, chicken, salad, a bun, macaroni salad, cheese, a piece of cheesecake, and a glass of red wine. Context: alcohol; dessert. Symptoms: not reported. Notes: logged from Discord check-in; time approximate.
+
+## 2026-05-09 (EST)
+- 10:54 — Exercise: played 36 holes of golf and walked the whole 36 holes. Notes: logged next day from Discord check-in; time approximate.
+- 10:54 — Meal: breakfast, bowl of cereal. Context: standard breakfast. Symptoms: not reported. Notes: logged next day from Discord check-in; time approximate.
+- 10:54 — Meal: lunch, chicken ranch wrap and a beer. Context: alcohol. Symptoms: not reported. Notes: logged next day from Discord check-in; time approximate.
+- 10:54 — Meal: dinner, 2 pieces of pizza and 9 battered shrimp. Context: fried dinner. Symptoms: not reported. Notes: logged next day from Discord check-in; time approximate.
+
 ## 2026-04-18 (EST)
 - 17:07 — Exercise: changed tires on 2 vehicles; took about 2 hours.
 - 17:07 — Meal: lunch, salsa and chips; Coke. Context: soda.
