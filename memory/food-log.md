@@ -223,6 +223,11 @@
 - 20:07 — Meal: snacks, a couple chocolate bars. Context: sweets between meals. Symptoms: not reported.
 - 20:07 — Meal: dinner, butter chicken, rice, naan, and 2 cans of ginger ale. Context: soda; richer dinner. Symptoms: not reported.
 
+## 2026-05-11 (EST)
+- 15:59 — Meal: breakfast, none. Context: coffee only; skipped solid food. Symptoms: not reported. Notes: logged from Discord check-in.
+- 15:59 — Meal: lunch, Big Mac, fries, iced tea, and 10 chicken McNuggets. Context: fast food; larger lunch. Symptoms: not reported. Notes: logged from Discord check-in.
+- 21:16 — Meal: dinner, none. Context: skipped dinner. Symptoms: not reported. Notes: logged from Discord check-in.
+
 ## 2026-05-10 (EST)
 - 10:54 — Meal: breakfast, two eggs, 4 pieces of bacon, toast, and coffee. Context: caffeine. Symptoms: not reported. Notes: logged from Discord check-in.
 - 15:45 — Meal: lunch, none. Context: skipped lunch. Symptoms: not reported. Notes: logged from Discord check-in; time approximate.
