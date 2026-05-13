@@ -39,4 +39,6 @@
 2026-05-05 11:27 EST – Sleep: about 7 hours. Quality: 3/5. Context: n/a. Notes: logged from Discord check-in.
 2026-05-06 10:01 EST – Sleep: about 5 hours. Quality: 2/5. Context: not much sleep reported. Notes: logged from Discord check-in.
 2026-05-07 12:46 EST – Sleep: about 6 hours. Quality: 2/5. Context: not super good sleep reported. Notes: logged from Discord check-in.
+2026-05-12 13:49 EST – Sleep: about 6 hours. Quality: 3/5. Context: n/a. Notes: logged from Discord check-in.
+
 2026-05-08 15:23 EST – Sleep: about 5 hours. Quality: 3/5. Context: poor sleep night. Notes: "sleep wasn't good" reported in Discord check-in.
