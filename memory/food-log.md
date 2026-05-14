@@ -26,6 +26,9 @@
 - 10:11 — Meal: breakfast, bowl of cereal with milk; coffee. Context: caffeine. Symptoms: not reported. Notes: n/a.
 - 19:15 — Meal: dinner, two breaded chicken burgers with cheese; ginger ale. Context: n/a. Symptoms: not reported. Notes: n/a.
 
+## 2026-05-13 (EST)
+- 10:01 — Meal: breakfast, two Egg McMuffins and a coffee. Context: caffeine. Symptoms: not reported. Notes: no lunch; no exercise.
+
 ## 2026-03-06 (EST)
 - 10:01 — Meal: breakfast, none. Context: n/a. Symptoms: not reported. Notes: skipped breakfast.
 - 18:00 — Meal: dinner, butter chicken and naan bread. Context: rich/spicy dinner, evening meal. Symptoms: overnight heartburn and stomach rumbling (severity 4/10), resolved by morning; woke early ~3:00 a.m. Notes: monitor for pattern with rich/spicy dinners.

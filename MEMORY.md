@@ -66,3 +66,8 @@
 
 <!-- openclaw-memory-promotion:memory:memory/2026-05-04.md:3:3 -->
 - - Nova Scotia trip address: 65 Lawrence St, Lunenburg, Nova Scotia. [score=0.862 recalls=0 avg=0.620 source=memory/2026-05-04.md:3-3]
+
+## Promoted From Short-Term Memory (2026-05-13)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-08.md:3:3 -->
+- - 6:00 PM EST — Recorded Lunenburg expenses for later calculation in `memory/lunenburg-expenses.md`: Cabot $627.00, AirBnB $178.00, Iberostar $492.80. [score=0.805 recalls=0 avg=0.620 source=memory/2026-05-08.md:3-3]
