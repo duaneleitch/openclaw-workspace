@@ -247,6 +247,18 @@
 - 17:01 — Meal: lunch, two crispy chicken sandwiches. Context: standard lunch. Symptoms: not reported.
 - 13:43 — Exercise: none today.
 
+## 2026-05-16 (EST)
+- 16:27 — Meal: breakfast, none. Context: skipped breakfast. Symptoms: not reported.
+- 16:27 — Meal: lunch, 6 inch submarine. Context: standard lunch. Symptoms: not reported.
+- 16:27 — Meal: dinner, none. Context: skipped dinner. Symptoms: not reported.
+- 16:27 — Exercise: 60 minute walk. Context: moderate exercise. Symptoms: not reported.
+
+## 2026-05-15 (EST)
+- 20:27 — Meal: breakfast, sausage McMuffin, hashbrown, and coffee. Context: caffeine. Symptoms: not reported.
+- 20:27 — Meal: lunch, club sandwich with fries. Context: standard lunch. Symptoms: not reported.
+- 20:27 — Meal: dinner, none. Context: skipped dinner. Symptoms: not reported.
+- 20:27 — Exercise: none today.
+
 ## 2026-04-18 (EST)
 - 17:07 — Exercise: changed tires on 2 vehicles; took about 2 hours.
 - 17:07 — Meal: lunch, salsa and chips; Coke. Context: soda.

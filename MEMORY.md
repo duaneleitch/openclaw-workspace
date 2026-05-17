@@ -71,3 +71,69 @@
 
 <!-- openclaw-memory-promotion:memory:memory/2026-05-08.md:3:3 -->
 - - 6:00 PM EST — Recorded Lunenburg expenses for later calculation in `memory/lunenburg-expenses.md`: Cabot $627.00, AirBnB $178.00, Iberostar $492.80. [score=0.805 recalls=0 avg=0.620 source=memory/2026-05-08.md:3-3]
+
+## Reference Information
+
+### Canadian Tire Bridgewater (Brake Service)
+- **Store:** Canadian Tire Bridgewater
+- **Address:** 16 Pine Grove Road, RR 2, Unit 1, Bridgewater, NS B4V 4H5
+- **Phone:** 902-543-4648
+- **Purpose:** Brake fix information
+- **Stored:** 2026-05-16
+
+### Saunders Motor Company (Dodge Ram Service)
+- **Business:** Saunders Motor Company
+- **Address:** 15221 Highway 3, Hebbville / Bridgewater, NS
+- **Phone:** 902-543-3111
+- **Website:** Saunders Motor Company
+- **Purpose:** Dodge Ram repair/service
+- **Stored:** 2026-05-16
+
+### Frank's Corner Automotive (Auto Repair - Lunenburg)
+- **Business:** Frank's Corner Automotive
+- **Address:** 11313 Highway 3, Lunenburg, NS
+- **Phone:** 902-634-4636
+- **Services:** Full-service auto repair, MVI/safety inspections, brakes, oil changes, tires, diagnostics, electrical, cooling system, alignment, and AC
+- **Notes:** Located just outside Lunenburg; serving the community for 40+ years
+- **Purpose:** General auto repair and maintenance
+- **Stored:** 2026-05-16
+
+### Hatt's Car Care Uni-Pro (Auto Repair - Lunenburg)
+- **Business:** Hatt's Car Care Uni-Pro
+- **Address:** 150 Victoria Road, Lunenburg, NS
+- **Phone:** 902-634-8888
+- **Services:** Auto repair garage
+- **Purpose:** General auto repair and maintenance
+- **Stored:** 2026-05-16
+
+### Knickle's Auto Repair Specialists / NAPA AUTOPRO Kars Automotive (Auto Repair - Lunenburg)
+- **Business:** Knickle's Auto Repair Specialists / NAPA AUTOPRO Kars Automotive
+- **Address:** 11248 Highway 3, Lunenburg, NS
+- **Phone:** 902-634-8631
+- **Services:** Car repair/service, alignments
+- **Hours:** Yellow Pages shows open until 5:00 pm
+- **Note:** Call to confirm Saturday service availability
+- **Purpose:** General auto repair and maintenance
+- **Stored:** 2026-05-16
+
+### Enterprise Rent-A-Car (Rental Car - Hebbville)
+- **Business:** Enterprise Rent-A-Car
+- **Address:** 15145 Highway 3, Hebbville, NS
+- **Service Area:** Bridgewater, Mahone Bay, Lunenburg, Liverpool, Chester, etc.
+- **Purpose:** Rental car services
+- **Stored:** 2026-05-16
+
+### Avis / Budget (Rental Car - Bridgewater)
+- **Business:** Avis / Budget
+- **Address:** 15064 Highway 3, Bridgewater, NS
+- **Phone:** 902-543-1787
+- **Source:** Yellow Pages
+- **Purpose:** Rental car services
+- **Stored:** 2026-05-16
+
+### Edge of Town Auto (Auto Repair - Newcombville/Bridgewater)
+- **Business:** Edge of Town Auto
+- **Address:** 408 Highway 210, Newcombville / Bridgewater area
+- **Phone:** 902-543-5057
+- **Purpose:** General auto repair and maintenance
+- **Stored:** 2026-05-16
