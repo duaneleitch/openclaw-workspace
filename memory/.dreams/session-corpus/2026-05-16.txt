@@ -60,3 +60,5 @@
 [main/sessions/main/047728fd-d187-43fe-a9a6-f4f948bb1188.jsonl#L68] Assistant: Done. I've updated the existing Kars Automotive entry with the hours information and your note about calling to confirm Saturday service availability.
 [main/sessions/main/047728fd-d187-43fe-a9a6-f4f948bb1188.jsonl#L69] User: Give me rhe address for Avis
 [main/sessions/main/047728fd-d187-43fe-a9a6-f4f948bb1188.jsonl#L71] Assistant: **Avis / Budget** 15064 Highway 3, Bridgewater, NS <https://waze.com/ul?q=15064%20Highway%203%2C%20Bridgewater%2C%20NS&navigate=yes> Phone: 902-543-1787
+[main/sessions/main/047728fd-d187-43fe-a9a6-f4f948bb1188.jsonl.reset.2026-05-17T13-41-44.324Z#L72] User: What is the phone number for Saunders?
+[main/sessions/main/047728fd-d187-43fe-a9a6-f4f948bb1188.jsonl.reset.2026-05-17T13-41-44.324Z#L74] Assistant: 902-543-3111
