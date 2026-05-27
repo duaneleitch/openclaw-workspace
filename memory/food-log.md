@@ -1,5 +1,23 @@
 # Food Log
 
+## 2026-05-25 (Monday)
+
+### Breakfast (EST)
+- Coffee
+- Bowl of cereal
+
+### Lunch (EST)
+- Two chocolate bars
+
+### Dinner (EST)
+- Two slices of pizza
+- Orange Crush
+
+### Exercise (EST)
+- No exercise
+
+## 2026-05-22 (Friday)
+
 ## 2026-05-22 (Friday)
 
 ### Breakfast (EST)
