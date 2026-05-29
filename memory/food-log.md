@@ -1,5 +1,23 @@
 # Food Log
 
+## 2026-05-28 (Thursday)
+
+### Breakfast (EST)
+- Coffee
+
+### Lunch (EST)
+- Peanut butter toast
+
+### Exercise (EST)
+- Not yet logged
+
+## 2026-05-27 (Wednesday)
+
+### Dinner (EST)
+- Rack of ribs
+- Caesar salad
+- 3 beers
+
 ## 2026-05-25 (Monday)
 
 ### Breakfast (EST)
