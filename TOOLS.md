@@ -124,3 +124,14 @@ Key docs available:
 - tools.exec.security = full
 - tools.exec.ask = off
 - channels.discord.capabilities = ["exec"]
+
+## Mac Mini Commands
+
+### Claude Code Launch (minimax-m3)
+- **Location:** Mac Mini
+- **Command:**
+  ```bash
+  cd ~/agent-os
+  ollama launch claude --model minimax-m3:cloud
+  ```
+- **Purpose:** Run Claude Code using the minimax-m3 model

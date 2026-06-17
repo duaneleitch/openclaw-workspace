@@ -137,3 +137,14 @@
 - **Phone:** 902-543-5057
 - **Purpose:** General auto repair and maintenance
 - **Stored:** 2026-05-16
+
+### Claude Code Launch Command (Mac Mini)
+- **Purpose:** Run Claude Code on Mac Mini using minimax-m3 model
+- **Command:**
+  ```
+  cd ~/agent-os
+  ollama launch claude --model minimax-m3:cloud
+  ```
+- **Location:** Mac Mini
+- **Model:** minimax-m3:cloud
+- **Stored:** 2026-06-16
