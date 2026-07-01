@@ -148,3 +148,14 @@
 - **Location:** Mac Mini
 - **Model:** minimax-m3:cloud
 - **Stored:** 2026-06-16
+
+## Promoted From Short-Term Memory (2026-06-30)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-06-24.md:5:7 -->
+- **Received:** Encorp meeting transcript from 2026-06-23 **Topic:** POR Shipping Label and Transaction Management Discussion **Processed by:** Alfred [score=0.868 recalls=0 avg=0.620 source=memory/2026-06-24.md:5-7]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-24.md:16:16 -->
+- **1. W1711: POR Aggregate Product SKU Breakdown** [score=0.868 recalls=0 avg=0.620 source=memory/2026-06-24.md:16-16]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-24.md:22:22 -->
+- **2. Second Leg Weight Carry-Forward** [score=0.868 recalls=0 avg=0.620 source=memory/2026-06-24.md:22-22]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-24.md:27:27 -->
+- **3. Second Leg Transaction Editing** [score=0.868 recalls=0 avg=0.620 source=memory/2026-06-24.md:27-27]
