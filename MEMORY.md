@@ -159,3 +159,8 @@
 - **2. Second Leg Weight Carry-Forward** [score=0.868 recalls=0 avg=0.620 source=memory/2026-06-24.md:22-22]
 <!-- openclaw-memory-promotion:memory:memory/2026-06-24.md:27:27 -->
 - **3. Second Leg Transaction Editing** [score=0.868 recalls=0 avg=0.620 source=memory/2026-06-24.md:27-27]
+
+## Promoted From Short-Term Memory (2026-07-01)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-06-24.md:32:32 -->
+- **4. Driver App Shipper List Search** [score=0.894 recalls=0 avg=0.620 source=memory/2026-06-24.md:32-32]
