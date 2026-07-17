@@ -63,3 +63,26 @@ When adjusting model sizing for OpenClaw 2026.4.15, inspect the current JSON sch
 - Tags: openclaw, config, ollama, cron
 
 ---
+
+## [LRN-20260716-001] correction
+
+**Logged**: 2026-07-16T11:52:00Z
+**Priority**: high
+**Status**: pending
+**Area**: docs
+
+### Summary
+When Duane shares transcripts, full processing must always happen, not just memory capture.
+
+### Details
+I only partially processed a transcript by extracting durable notes into daily memory. Duane corrected that transcript handling must always include the full processing workflow.
+
+### Suggested Action
+For every transcript batch, always complete the full workflow: read, summarize, extract actions/risks/decisions, save processed notes to the appropriate Obsidian location, and only then report completion.
+
+### Metadata
+- Source: user_feedback
+- Related Files: /home/duane/.openclaw/workspace/AGENTS.md, /home/duane/.openclaw/workspace/MEMORY.md
+- Tags: transcripts, processing, obsidian, correction
+
+---

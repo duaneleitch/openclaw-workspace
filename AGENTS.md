@@ -168,6 +168,7 @@ Use it for durable context, not raw logs.
 Memory is limited. Files persist.
 
 When you learn something important:
+- when Duane shares transcripts, treat processing as incomplete until the full transcript workflow is finished: summary, actions, risks, decisions, and appropriate Obsidian storage
 - update `memory/YYYY-MM-DD.md`
 - update relevant documentation
 - update `MEMORY.md` when the lesson is durable and worth keeping
