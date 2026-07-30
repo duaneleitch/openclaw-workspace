@@ -164,3 +164,8 @@
 
 <!-- openclaw-memory-promotion:memory:memory/2026-06-24.md:32:32 -->
 - **4. Driver App Shipper List Search** [score=0.894 recalls=0 avg=0.620 source=memory/2026-06-24.md:32-32]
+
+## Promoted From Short-Term Memory (2026-07-29)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-07-24.md:1:1 -->
+- - Processed additional transcript: `2026-07-24_Kye_Client_Enablement_Improvement_Vision_Alignment.md` in Kye folder, covering the split between Roger’s long-term agentic CE vision and the practical one-page CE operating standard, Kai’s push to defend CE through standards/results instead of “being busy,” continued monthly CalRecycle reporting as baseline evidence for future scaling, and the need for a dedicated internal CE reset/update session. [score=0.837 recalls=0 avg=0.620 source=memory/2026-07-24.md:1-1]
