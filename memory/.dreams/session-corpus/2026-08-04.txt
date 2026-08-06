@@ -1,1 +1,5 @@
 [main/sessions/main/ea85f117-3e74-41dc-abc9-014303270c7e.jsonl#L91] Assistant: ✅ GitHub Backup: Success — [021fe21] Daily backup: 2026-08-04 02:00:05 UTC
+[main/sessions/main/1b5c935a-ede0-4118-9826-93d02cb1770d.jsonl.deleted.2026-08-04T03-01-25.237Z#L5] User: Write a dream diary entry from these memory fragments: - - Processed additional transcript: `2026-07-24_Kye_Client_Enablement_Improvement_Vision_Alignment.md` in Kye folder, covering the split between Roger’s long-term agentic CE vision a
+[main/sessions/main/1b5c935a-ede0-4118-9826-93d02cb1770d.jsonl.deleted.2026-08-04T03-01-25.237Z#L6] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/d792142b-f92c-4f42-9ea9-e7028312fb6a.jsonl.deleted.2026-08-04T03-01-25.539Z#L5] User: Write a dream diary entry from these memory fragments: - Durable notes from ABCRC / Dav call review: ABCRC release communication gap: Dav strongly objects to status reports marking features as "released" without also stating that ABCRC ha
+[main/sessions/main/d792142b-f92c-4f42-9ea9-e7028312fb6a.jsonl.deleted.2026-08-04T03-01-25.539Z#L6] Assistant: [assistant turn failed before producing content]
