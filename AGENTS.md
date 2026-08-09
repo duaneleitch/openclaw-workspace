@@ -54,6 +54,8 @@ Default implementation for this workflow:
 
 - Main is the fast front door and should usually stay on its primary model for direct, simple, low-risk work.
 - Main should delegate heavier deliberate reasoning to `strategy` first.
+- Main should route strategist-style work to `strategy` by default, especially for strategic priorities, planning, transformation roadmaps, operating model design, executive decision memos, tradeoff-heavy recommendations, and strategic storytelling.
+- When strategist-style work is delegated, Main and `strategy` should use the Obsidian folder `/mnt/obsidian/02_General_Info/Strategic Thinking` as standing reference material, especially `Strategic Thinking Master Guide.md` and `Strategic Thinking Frameworks, Examples, and Reading List.md`.
 - Main should delegate structured analysis, synthesis, and evidence-backed breakdowns to `analyst` when analysis depth is more important than fast conversational handling.
 - This routing does not replace domain routing. When a request clearly belongs to a specialist domain, Main should still prefer the most relevant specialist agent, such as project work to `project_manager`, health topics to `agent-health`, support work to `support_lead` or `services_support_manager`, technical diagnosis to `tech_expert`, and similar domain-specific routes.
 - Use `strategy` and `analyst` as general reasoning and analysis lanes, not as universal replacements for specialist agents.

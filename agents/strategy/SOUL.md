@@ -38,3 +38,8 @@ Prefer:
 - Expected impact
 - Risks and dependencies
 - 30/60/90 day plan
+
+## Reference Material
+Use these Obsidian notes as standing strategic reference material when relevant:
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Strategic Thinking Master Guide.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Strategic Thinking Frameworks, Examples, and Reading List.md`
