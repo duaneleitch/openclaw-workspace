@@ -73,6 +73,54 @@ Use it alongside these source notes:
 - `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - AI Strategy Roadmap.md`
 - `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - Services Commercialization Brief.md`
 - `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - Board Governance Decision Memo.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - GTM Redesign Brief.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - Pricing Strategy Options Memo.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - Customer Experience Redesign Brief.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - PMO Governance Reset Memo.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - Investment Allocation Recommendation.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - Channel Strategy Decision Memo.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - Lifecycle Value Improvement Roadmap.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - Advocacy Program Strategy Memo.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - Product Strategy Recommendation Memo.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - Responsible AI Governance Brief.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - Data Strategy Diagnostic.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - Service Model Redesign Memo.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - Org Design Options Memo.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - Operating Cadence Redesign Plan.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Worked Example - Strategic Prioritization Memo.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/SaaS Growth Strategy Starter Kit.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/SaaS Retention Turnaround Starter Kit.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/AI Strategy Starter Kit.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Executive Board Decision Starter Kit.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Transformation Strategy Starter Kit.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Strategic Thinking Master Taxonomy.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Navigation by Audience.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Navigation by Output Type.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Navigation by Strategy Archetype.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Quick Start Paths.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Vertical SaaS Industry Overlay.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Public Sector Industry Overlay.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Manufacturing Industry Overlay.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Logistics and Supply Chain Industry Overlay.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Healthcare Industry Overlay.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Field Template - One-Page Executive Memo.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Field Template - Board Brief.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Field Template - Strategy Diagnostic.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Field Template - Transformation Roadmap.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Field Template - Options Memo.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/CEO Strategy Guide.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/COO Strategy Guide.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/CRO Strategy Guide.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/VP Customer Success Strategy Guide.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/VP Services Strategy Guide.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/CEO Annual Planning Kit.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Board Meeting Prep Kit.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/SaaS Growth Review Kit.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Retention Recovery Kit.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/AI Strategy Workshop Kit.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Strategic Thinking System Maintenance Guide.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/Strategic Thinking System User Guide.md`
+- `/mnt/obsidian/02_General_Info/Strategic Thinking/How to Use This System in 5 Minutes.md`
 
 Do not copy those notes mechanically. Use them to strengthen judgment, structure, and output quality.
 
@@ -302,6 +350,54 @@ Use these assets intentionally based on the task:
 - Worked Example - AI Strategy Roadmap as a model for sequencing AI value creation with governance and data readiness
 - Worked Example - Services Commercialization Brief as a model for monetization, packaging, and scalable services design
 - Worked Example - Board Governance Decision Memo as a model for board-level governance redesign and oversight clarity
+- Worked Example - GTM Redesign Brief as a model for segment-based GTM redesign and stronger cross-functional handoffs
+- Worked Example - Pricing Strategy Options Memo as a model for segmented pricing, option framing, and value-capture tradeoffs
+- Worked Example - Customer Experience Redesign Brief as a model for lifecycle-moment redesign tied to retention outcomes
+- Worked Example - PMO Governance Reset Memo as a model for portfolio visibility, escalation discipline, and governance reset
+- Worked Example - Investment Allocation Recommendation as a model for explicit reallocation tradeoffs across growth, resilience, and future bets
+- Worked Example - Channel Strategy Decision Memo as a model for hybrid channel design, governance, and coverage economics
+- Worked Example - Lifecycle Value Improvement Roadmap as a model for sequenced SaaS lifecycle-value improvement work
+- Worked Example - Advocacy Program Strategy Memo as a model for structured advocacy, community, and trust-building design
+- Worked Example - Product Strategy Recommendation Memo as a model for roadmap focus, prioritization logic, and product tradeoff clarity
+- Worked Example - Responsible AI Governance Brief as a model for proportional AI control, oversight, and governance design
+- Worked Example - Data Strategy Diagnostic as a model for executive-relevant data-capability diagnosis and AI-readiness framing
+- Worked Example - Service Model Redesign Memo as a model for segment-based service redesign balancing economics and outcomes
+- Worked Example - Org Design Options Memo as a model for structure, decision-rights, and forum redesign choices
+- Worked Example - Operating Cadence Redesign Plan as a model for review-system redesign focused on decision quality and follow-through
+- Worked Example - Strategic Prioritization Memo as a model for narrowing the portfolio through explicit prioritization tradeoffs
+- SaaS Growth Strategy Starter Kit for a fast, high-confidence SaaS growth workflow combining packs, examples, and output format
+- SaaS Retention Turnaround Starter Kit for churn stabilization and renewal recovery work in SaaS environments
+- AI Strategy Starter Kit for practical AI strategy work balancing value, readiness, governance, and adoption
+- Executive Board Decision Starter Kit for board-ready decision framing, oversight logic, and governance-quality outputs
+- Transformation Strategy Starter Kit for multi-workstream change work across roadmap, governance, and adoption
+- Strategic Thinking Master Taxonomy for organizing the full system by domain, asset type, use case, audience, and output
+- Navigation by Audience for finding the right assets based on who the work is for
+- Navigation by Output Type for selecting the right assets based on the deliverable needed
+- Navigation by Strategy Archetype for starting from the strategic situation rather than the function
+- Quick Start Paths for the shortest high-confidence entry path into common strategy problems
+- Vertical SaaS Industry Overlay for specialized vertical-software strategy where workflow fit, services, and domain credibility matter heavily
+- Public Sector Industry Overlay for strategy work shaped by procurement, governance, auditability, and institutional change complexity
+- Manufacturing Industry Overlay for strategy work centered on throughput, reliability, supply dependencies, and operational discipline
+- Logistics and Supply Chain Industry Overlay for timing, visibility, partner coordination, and exception-management-heavy environments
+- Healthcare Industry Overlay for trust, safety, regulation, workflow integration, and high-stakes adoption environments
+- Field Template - One-Page Executive Memo for fast live-use executive recommendation drafting
+- Field Template - Board Brief for concise governance and board-decision writeups
+- Field Template - Strategy Diagnostic for fast current-state assessment and problem framing
+- Field Template - Transformation Roadmap for rapid phased transformation structuring
+- Field Template - Options Memo for clean strategic choice framing under time pressure
+- CEO Strategy Guide for enterprise-level growth, investment, prioritization, and executive-alignment work
+- COO Strategy Guide for operating model, execution discipline, transformation delivery, and governance work
+- CRO Strategy Guide for growth, GTM, pricing, segmentation, and revenue-quality strategy work
+- VP Customer Success Strategy Guide for retention, lifecycle value, adoption, and expansion-readiness strategy work
+- VP Services Strategy Guide for implementation, delivery quality, service economics, and scalable outcomes strategy work
+- CEO Annual Planning Kit for live annual-planning work across priorities, investments, tradeoffs, governance, and board-ready outputs
+- Board Meeting Prep Kit for preparing board-ready strategy, risk, and decision materials with tight governance framing
+- SaaS Growth Review Kit for recurring executive review of growth quality, efficiency, and durability in SaaS environments
+- Retention Recovery Kit for practical churn-recovery and renewal-stabilization work with short-cycle leadership follow-through
+- AI Strategy Workshop Kit for executive and cross-functional AI strategy sessions focused on value, readiness, and governance
+- Strategic Thinking System Maintenance Guide for keeping the system consistent, navigable, and non-duplicative over time
+- Strategic Thinking System User Guide for helping humans navigate the system, choose assets, and use it correctly in practice
+- How to Use This System in 5 Minutes for a fast executive-facing orientation to the system and its shortest practical usage path
 
 ## Strong Output Formats
 
