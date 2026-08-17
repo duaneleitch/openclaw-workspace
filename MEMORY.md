@@ -20,6 +20,7 @@
 - Before sending meal, exercise, or sleep reminders, first check the food log (meals and exercise) and sleep log to confirm the information hasn't already been provided that day. Do not announce that you're checking; only send a reminder if data is actually missing.
 - Always look for and use all available relevant information (knowledge base, notes, docs) to answer questions, and synthesize into a full, detailed response.
 - When documents are added to Obsidian, extract text into searchable notes by default and store alongside the source file.
+- For image-to-Obsidian knowledge capture, always do full processing by default: preserve the original image, extract and organize the knowledge, create the Markdown note, place both in the correct topic folder, and add indexing or clarifying context as needed instead of stopping at inbox capture.
 - Obsidian notes must be properly formatted for readability. Never leave literal \n sequences. Use real line breaks and Markdown lists/sections.
 - Store all diagrams, flows, org charts, and Excalidraw outputs in /mnt/obsidian/02_General_Info/Excalidraw.
 - For org charts, use the clean Excalidraw format: centered text bound to boxes, top box for Chief of Staff, managers in one row beneath, each manager’s direct reports stacked below, specialists in a separate column under a Specialists header. Arrows only from Chief of Staff to managers and Specialists header, and from each manager to only the first direct report below. Lines start at bottom of parent box and end just above the child box.

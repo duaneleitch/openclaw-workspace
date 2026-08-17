@@ -86,3 +86,26 @@ For every transcript batch, always complete the full workflow: read, summarize, 
 - Tags: transcripts, processing, obsidian, correction
 
 ---
+
+## [LRN-20260816-001] correction
+
+**Logged**: 2026-08-16T23:16:22.294288+00:00
+**Priority**: high
+**Status**: pending
+**Area**: docs
+
+### Summary
+Do not assume resent image batches are duplicates without checking filenames against the target Obsidian topic folder.
+
+### Details
+I incorrectly labeled at least one resent Social_Media_Insights batch as a duplicate. A later filename check showed the files were missing from the library and needed to be processed. For this workflow, duplicate detection should be based on actual filename/path existence checks before replying, not on conversational proximity or visual similarity assumptions.
+
+### Suggested Action
+Before calling any incoming image batch a duplicate, check whether each filename already exists in the target topic Images folder and only then suppress re-processing.
+
+### Metadata
+- Source: user_feedback
+- Related Files: .learnings/LEARNINGS.md
+- Tags: duplicate-detection, image-library, obsidian, correction
+
+---
