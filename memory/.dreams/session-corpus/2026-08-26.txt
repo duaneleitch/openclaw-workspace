@@ -1,1 +1,7 @@
 [main/sessions/main/ea85f117-3e74-41dc-abc9-014303270c7e.jsonl#L116] Assistant: ✅ GitHub Backup: Success — [52231ef] Daily backup: 2026-08-26 02:00:02 UTC
+[main/sessions/main/5223c438-f079-480d-b2d3-6b8d3a730fa5.jsonl.deleted.2026-08-26T03-01-42.244Z#L5] User: Write a dream diary entry from these memory fragments: - Transcript Processing: Main themes captured: Kai framed his role as a temporary Encorp/ABCRC recovery mandate, Duane pushed hard on scope and legal implications of a CE-wide RACI, b
+[main/sessions/main/5223c438-f079-480d-b2d3-6b8d3a730fa5.jsonl.deleted.2026-08-26T03-01-42.244Z#L5] User: possible QC pickup issue tied to compaction-truck vehicle configuration.; Processed Encorp daily stand
+[main/sessions/main/5223c438-f079-480d-b2d3-6b8d3a730fa5.jsonl.deleted.2026-08-26T03-01-42.244Z#L6] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/ea85f117-3e74-41dc-abc9-014303270c7e.jsonl#L117] Assistant: ❌ Daily KB refresh failed (exit 1). Last log lines: One or more KB source directories are missing.
+[main/sessions/main/f4905d7a-4a67-42f1-bdb8-bb0060ffd9a1.jsonl.deleted.2026-08-26T03-01-41.937Z#L5] User: Write a dream diary entry from these memory fragments: - Assistant: [assistant turn failed before producing content]
+[main/sessions/main/f4905d7a-4a67-42f1-bdb8-bb0060ffd9a1.jsonl.deleted.2026-08-26T03-01-41.937Z#L6] Assistant: [assistant turn failed before producing content]
