@@ -1,1 +1,2 @@
 [main/sessions/main/ea85f117-3e74-41dc-abc9-014303270c7e.jsonl#L135] Assistant: ✅ GitHub Backup: Success — [3ff02d1] Daily backup: 2026-09-04 02:00:05 UTC
+[main/sessions/main/ea85f117-3e74-41dc-abc9-014303270c7e.jsonl#L136] Assistant: ❌ Daily KB refresh failed (exit 1). Last log lines: One or more KB source directories are missing.
