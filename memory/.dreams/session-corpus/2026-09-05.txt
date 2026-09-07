@@ -1,1 +1,3 @@
 [main/sessions/main/ea85f117-3e74-41dc-abc9-014303270c7e.jsonl#L137] Assistant: ✅ GitHub Backup: Success — [a96504f] Daily backup: 2026-09-05 02:00:02 UTC
+[main/sessions/main/ea85f117-3e74-41dc-abc9-014303270c7e.jsonl#L138] Assistant: ❌ Daily KB refresh failed (exit 1). Last log lines: One or more KB source directories are missing.
+[main/sessions/main/ea85f117-3e74-41dc-abc9-014303270c7e.jsonl#L139] Assistant: ✅ Security Audit — All clear Critical: 0 | Warnings: 0 | Info: 0 Log: ~/.openclaw/logs/security-audit-*.txt (latest)
