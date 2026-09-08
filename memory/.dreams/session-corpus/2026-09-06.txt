@@ -1,1 +1,5 @@
 [main/sessions/main/ea85f117-3e74-41dc-abc9-014303270c7e.jsonl#L140] Assistant: ✅ GitHub Backup: Success — [a15b356] Daily backup: 2026-09-06 02:00:04 UTC
+[main/sessions/main/ea85f117-3e74-41dc-abc9-014303270c7e.jsonl#L141] Assistant: ❌ Daily KB refresh failed (exit 1). Last log lines: One or more KB source directories are missing.
+[main/sessions/main/fef59f89-705e-474f-85bc-11da0c42326c.jsonl#L5] User: Did you finish?
+[main/sessions/main/fef59f89-705e-474f-85bc-11da0c42326c.jsonl#L7] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/fef59f89-705e-474f-85bc-11da0c42326c.jsonl#L9] User: Did you finish?
