@@ -1,0 +1,52 @@
+{
+  "version": 3,
+  "files": {
+    "analyst:sessions/analyst/177f79ea-4e20-4c28-b73e-0200d0119ad8.jsonl.deleted.2026-08-22T03-01-43.855Z": {
+      "mtimeMs": 1784730651734,
+      "size": 8625,
+      "contentHash": "3a3bfcef8022b6badad6d8711dfd1a6a6edc4e1c906d3f96874a71a44139ac3f",
+      "lineCount": 11,
+      "lastContentLine": 11
+    },
+    "analyst:sessions/analyst/5e0507e1-0e4d-4bff-892d-08e8f6fbc951.jsonl": {
+      "mtimeMs": 1777300624743,
+      "size": 37654,
+      "contentHash": "d5a8f66f0cbcb128bb180b07a29040ea41de5d1fe4192963e098f2c3ab1fdfe3",
+      "lineCount": 42,
+      "lastContentLine": 42
+    }
+  },
+  "seenMessages": {
+    "analyst:065677ed-b089-41d5-b492-381560694ce3": [
+      "b21b68d0901c96a7379dcda9ea5c6b212c2c2542",
+      "3b0edfca9cdc8000b46e834a0b30c5955072fe82",
+      "b7f9c14558f3b090e29cf166d85d1a5529471593",
+      "72e58daf8a2a30a609caa2a4e59249bef74996b6",
+      "7e882ea4d5a5d7b5dba8bd28aa01c6d78ea10fec",
+      "7d38fd88413fd9ffa7753c61db43c42d7118729b",
+      "19a0bb2c0774a33ceccc1e2ce19875fc83bb22ac",
+      "256fafaa2fde6ebd700c5ea65f41072a3723301e",
+      "83f8567e4a552bac1be3ac12ff290167cb5c870b",
+      "1fe45a3aa4678498d790ea0552f40163e4712cf9",
+      "ce8436067496477bd03116f2b200ddb7c04ec66c",
+      "f81a652010a5606aa54b51a4e659c4e81734e1fa",
+      "ccbc8d72f868077781c079b54950140447385b03",
+      "b3b907989b4aa98152eb964f3df1d7a372498c87",
+      "20bbd2f632dff46072274bf0224dbe24308e7f2b",
+      "a96956f5a68859b0bef6401f6568f26bf914dbf1"
+    ],
+    "analyst:177f79ea-4e20-4c28-b73e-0200d0119ad8": [
+      "bc441323ac09c3f964c16ea627f633d5a1859e8a",
+      "cd8daaefc49f1239ff7aa6d29c3d163697d72c36",
+      "cd8da9a11458d6383a71189d0df7ab017593b06a",
+      "5a564d01509b62e61487d99d6bb784d1accd0add",
+      "d07a85004fd7029dc9b6b5c70a3bad390aff94dc",
+      "1fa337cb3678ce1c22c1f78636ca19fc2d43df8b",
+      "890ba94bb0af189875b0e1590b765c4338632758",
+      "dcc6231711d0884e0cf6d7dc63148942e14fa0e5",
+      "082d91a9911cf70903ccc40fcb03f49955b7978c",
+      "e204536e20f6f584d62f8dca40f6cb730b70e591",
+      "bd4b85bf6ccad9d316b313f907bbf90821709b3a"
+    ]
+  }
+}

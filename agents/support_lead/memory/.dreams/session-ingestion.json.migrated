@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "files": {},
+  "seenMessages": {
+    "support_lead:02ffaade-46b4-45af-8198-8b61723bf5b7": [
+      "396caae824f6b19d8e2dcf8aae37cda75c840d6a",
+      "a7f67400131ff918ba5ec62f690cc4810b911171",
+      "21ad4b162eb2517382fdbd6df8c8358f1059ad9a"
+    ],
+    "support_lead:d60aa6b4-c5fe-41ab-9e1d-573dc99aa142": [
+      "101ec2c2769781940aafdf654f772eddcf7304bc",
+      "f835a7e4aa1c45adbc44ebdc1e16c30a1c5a1a65",
+      "418bd1cdcecd3e1ebf05c75735c06d7fdc64a1ff",
+      "83d34b6279573f21be500a8498d382332d2cec81"
+    ]
+  }
+}

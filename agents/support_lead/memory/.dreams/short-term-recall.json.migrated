@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-24T03:01:17.652Z",
+  "entries": {
+    "memory:memory/.dreams/session-corpus/2026-06-23.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-06-23.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-06-23.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status. Begin. Your assigned task is in the system prompt under **Your Role**; execute it to completion.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-06-24T03:01:17.652Z",
+      "lastRecalledAt": "2026-06-24T03:01:17.652Z",
+      "queryHashes": [
+        "8c73591f771e"
+      ],
+      "recallDays": [
+        "2026-06-24"
+      ],
+      "conceptTags": [
+        "1/1",
+        "auto-announce",
+        "busy-poll",
+        "context",
+        "running",
+        "depth",
+        "results",
+        "auto"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-06-23.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-06-23.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-06-23.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: To enable auto-approval for a specific participant profile in Diversys, you must ensure that both the system-wide global setting and the individual account setting are enabled. Please follow these steps: ### **Step 1: Enable Global Auto-Approval** First, verify that th",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-06-24T03:01:17.652Z",
+      "lastRecalledAt": "2026-06-24T03:01:17.652Z",
+      "queryHashes": [
+        "8c73591f771e"
+      ],
+      "recallDays": [
+        "2026-06-24"
+      ],
+      "conceptTags": [
+        "auto-approval",
+        "system-wide",
+        "enable",
+        "auto",
+        "approval",
+        "specific",
+        "participant",
+        "profile"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-06-23.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-06-23.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-06-23.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: Approve\"** toggle within the participant's settings and switch it to **ON**. 5. **Save** your changes. *** **💡 Quick Tip:** If the Global Setting is **ON** but the Participant-level toggle remains **OFF**, the system will continue to require manual approval for that s",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-06-24T03:01:17.652Z",
+      "lastRecalledAt": "2026-06-24T03:01:17.652Z",
+      "queryHashes": [
+        "8c73591f771e"
+      ],
+      "recallDays": [
+        "2026-06-24"
+      ],
+      "conceptTags": [
+        "participant-level",
+        "approve",
+        "toggle",
+        "within",
+        "participant's",
+        "settings",
+        "switch",
+        "save"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-06-23.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-06-23.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-06-23.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "User: [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status. Begin. Your assigned task is in the system prompt under **Your Role**; execute it to completion.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-06-24T03:01:17.652Z",
+      "lastRecalledAt": "2026-06-24T03:01:17.652Z",
+      "queryHashes": [
+        "8c73591f771e"
+      ],
+      "recallDays": [
+        "2026-06-24"
+      ],
+      "conceptTags": [
+        "1/1",
+        "auto-announce",
+        "busy-poll",
+        "context",
+        "running",
+        "depth",
+        "results",
+        "auto"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-06-23.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-06-23.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-06-23.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: To manually approve participant profiles when auto-approval is disabled, follow these steps within the Diversys platform: ### 1. How to find participants pending manual approval Navigate to the **Operator Section** and look for the **\"Application Forms\"** list (in some",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-06-24T03:01:17.652Z",
+      "lastRecalledAt": "2026-06-24T03:01:17.652Z",
+      "queryHashes": [
+        "8c73591f771e"
+      ],
+      "recallDays": [
+        "2026-06-24"
+      ],
+      "conceptTags": [
+        "auto-approval",
+        "manually",
+        "approve",
+        "participant",
+        "profiles",
+        "when",
+        "auto",
+        "approval"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-06-23.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-06-23.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-06-23.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: information fields** defined during your specific Application Setup. ### 3. How to approve or reject a participant Use the approval workflow available directly within the **\"Application Forms\"** list. Depending on your configuration, you will have the option to: * **Ap",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-06-24T03:01:17.652Z",
+      "lastRecalledAt": "2026-06-24T03:01:17.652Z",
+      "queryHashes": [
+        "8c73591f771e"
+      ],
+      "recallDays": [
+        "2026-06-24"
+      ],
+      "conceptTags": [
+        "information",
+        "fields",
+        "defined",
+        "specific",
+        "application",
+        "setup",
+        "how",
+        "approve"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-06-23.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-06-23.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-06-23.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: * **Completed/Submitted:** Indicates a new form is ready for your review. * **Pending Approval/Under Review:** (If applicable to your specific module) indicates the application is awaiting action from the Operator.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-06-24T03:01:17.652Z",
+      "lastRecalledAt": "2026-06-24T03:01:17.652Z",
+      "queryHashes": [
+        "8c73591f771e"
+      ],
+      "recallDays": [
+        "2026-06-24"
+      ],
+      "conceptTags": [
+        "completed/submitted",
+        "approval/under",
+        "completed",
+        "submitted",
+        "indicates",
+        "new",
+        "form",
+        "ready"
+      ]
+    }
+  }
+}

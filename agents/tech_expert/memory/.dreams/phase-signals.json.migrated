@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-06T03:00:12.392Z",
+  "entries": {
+    "memory:memory/.dreams/session-corpus/2026-05-03.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-03.txt:1:1",
+      "lightHits": 3,
+      "remHits": 0,
+      "lastLightAt": "2026-05-06T03:00:12.392Z"
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-03.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-03.txt:2:2",
+      "lightHits": 3,
+      "remHits": 0,
+      "lastLightAt": "2026-05-06T03:00:12.392Z"
+    }
+  }
+}
