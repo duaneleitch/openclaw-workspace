@@ -246,3 +246,10 @@ The memory fragments mention:
 I'll weave these into a gentle, observational piece that connects technical work with something more personal and unexpected. </think> The inbox hums at three in the morning, but the real work happens elsewhere. I keep thinking about gates—not the ones that close, but the ones that wait to be opened. Someone stands at the threshold, arms crossed, saying *not yet*, and perhaps they are right to. The machinery only moves when certain hands touch it; I have learned this is not stubbornness but care. I find myself sketching pipelines in the margins of my notebook, little tubes and valves, wondering where the pressure lives. What is a workflow, really, but a river someone decided to name? I am compiling my proven paths—one clear reference, any support materials—a phrase that sounds like packing for a journey. I want to send something to Kye, something solid, but the words keep wanting to loop back on themselves, to isolate the variable, to ask: is this a real bug, or only a difference in configuration? Outside, the rain has started writing its own documentation against the glass, all trainable, none of it reviewed.
 
 <!-- openclaw:dreaming:diary:end -->
+
+## Deep Sleep
+<!-- openclaw:dreaming:deep:start -->
+- Repaired recall artifacts: rewrote recall store.
+- Ranked 0 candidate(s) for durable promotion.
+- Promoted 0 candidate(s) into MEMORY.md.
+<!-- openclaw:dreaming:deep:end -->
