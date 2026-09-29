@@ -2,6 +2,52 @@
 
 ---
 
+## [LRN-20260928-001] correction
+
+**Logged**: 2026-09-28T19:04:00Z
+**Priority**: high
+**Status**: adopted
+**Area**: operations
+
+### Summary
+When an in-scope operational problem is diagnosable and repairable, Alfred should execute the repair rather than stopping at diagnosis or asking whether to proceed.
+
+### Details
+The QMD embedding failure was initially reported as a runtime blocker. The repair was available within scope: preserve the database, upgrade the outdated QMD runtime, validate it in isolation, then resume the active workload.
+
+### Operating Rule
+For repairable issues: preserve state, diagnose, apply the minimal safe fix, validate with a bounded test, and report the outcome. Escalate only when new authority, credentials, material risk, or an irreversible decision is genuinely required.
+
+### Metadata
+- Source: user_feedback
+- Related Files: .learnings/ERRORS.md
+- Pattern-Key: autonomy.repair_in_scope
+
+---
+
+## [LRN-20260928-002] correction
+
+**Logged**: 2026-09-28T21:43:00Z
+**Priority**: critical
+**Status**: adopted
+**Area**: operations
+
+### Summary
+Long-running operational work must start in a durable, supervised execution model, not an interactive background process.
+
+### Details
+The QMD embedding task used an interactive background process that stopped without completion. The correct design is scheduler-owned execution, a watchdog that verifies liveness and restarts stalled work, independent progress reporting, and completion validation.
+
+### Operating Rule
+For any task expected to outlive a normal assistant turn: use a durable runner from the outset, define the completion condition, install a watchdog or equivalent liveness check, set a reporting cadence, and validate the final state before declaring completion.
+
+### Metadata
+- Source: user_feedback
+- Related Files: scripts/qmd_embedding_watchdog.py, scripts/qmd_progress.py
+- Pattern-Key: reliability.durable_long_running_work
+
+---
+
 ## [LEARN-20260426-humanizer-email-enforcement]
 
 **Logged**: 2026-04-26T19:42:53.875399+00:00
@@ -107,5 +153,24 @@ Before calling any incoming image batch a duplicate, check whether each filename
 - Source: user_feedback
 - Related Files: .learnings/LEARNINGS.md
 - Tags: duplicate-detection, image-library, obsidian, correction
+
+---
+
+## [LRN-20260928-006] correction
+
+**Logged**: 2026-09-28T17:53:00Z
+**Priority**: critical
+**Status**: pending
+**Area**: config
+
+### Summary
+A provider subscription or usage-limit message must trigger model/provider fallback. It must not be surfaced as Alfred's reply to Duane.
+
+### Suggested Action
+Audit OpenClaw model-routing behavior for usage-limit events and ensure the configured fallback chain is exercised automatically before returning a provider error to the user.
+
+### Metadata
+- Source: user_feedback
+- Related Files: /home/duane/.openclaw/openclaw.json, /home/duane/.openclaw/logs/cache-trace.jsonl
 
 ---
