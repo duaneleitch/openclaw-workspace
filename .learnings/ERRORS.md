@@ -2,6 +2,94 @@
 
 ---
 
+## [ERR-20260929-005] main_codex_execution_budget_timeout
+
+**Logged**: 2026-09-29T14:00:00Z
+**Priority**: high
+**Status**: resolved
+**Area**: config
+
+### Summary
+The main Discord agent reached the Codex app-server's configured 600-second execution budget while work was still pending response delivery.
+
+### Context
+- Gateway evidence recorded `elapsedMs=600001`, `timeoutMs=600000`, and `pendingStage=notification_queue`.
+- The default model definition no longer bound `openai/gpt-5.6-terra` to Codex, but `agents.entries.main.models` still had a main-agent override forcing `agentRuntime.id=codex`.
+
+### Resolution
+Removed the main-agent Codex runtime override, retained the model alias, and raised the outer default timeout to 900 seconds. Durable work should be scheduler-owned rather than held open in an interactive turn.
+
+### Metadata
+- Reproducible: yes
+- Related Files: /home/duane/.openclaw/openclaw.json
+- See Also: memory/2026-09-24-1838.md
+
+---
+
+## [ERR-20260929-004] cron_edit_empty_message
+
+**Logged**: 2026-09-29T13:47:00Z
+**Priority**: low
+**Status**: resolved
+**Area**: config
+
+### Summary
+A cron edit attempted to replace an agent payload with an empty shell-expanded message and was rejected by schema validation.
+
+### Resolution
+Use a fully populated literal message when updating agent cron payloads; do not rely on command substitution for long policy prompts.
+
+---
+
+## [ERR-20260929-003] sessions_spawn_main_agent_restricted
+
+**Logged**: 2026-09-29T13:43:00Z
+**Priority**: low
+**Status**: resolved
+**Area**: config
+
+### Summary
+The OpenClaw subagent launcher does not permit the `main` agent as a child target.
+
+### Resolution
+For bounded delegated work, select an allowed specialist agent and apply the requested worker-model override.
+
+---
+
+## [ERR-20260929-002] sqlite_cli_unavailable_on_vps
+
+**Logged**: 2026-09-29T12:43:00Z
+**Priority**: low
+**Status**: resolved
+**Area**: infra
+
+### Summary
+The VPS does not include the `sqlite3` CLI, so direct SQLite inspection is unavailable.
+
+### Resolution
+Use QMD status, QMD search, and process telemetry for index-health and queue checks. Install SQLite tooling only if a future maintenance task specifically requires direct database queries.
+
+---
+
+## [ERR-20260929-001] mounted_vault_recursive_filename_scan_timeout
+
+**Logged**: 2026-09-29T03:33:00Z
+**Priority**: medium
+**Status**: resolved
+**Area**: infra
+
+### Summary
+Recursive filename scans across the SSHFS-mounted Obsidian vault can exceed the short interactive command lifetime.
+
+### Context
+- Operation: locating corroborating CE triage sources.
+- Effect: read-only `rg --files` did not return before the process limit and was terminated without changing vault state.
+
+### Resolution
+Use the local QMD index for broad discovery, then perform targeted reads of selected source files.
+
+---
+
 ## [ERR-20260426-001] agentmail-pull-draft-fallback
 
 **Logged**: 2026-04-26T17:37:43.236341+00:00

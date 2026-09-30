@@ -27,7 +27,11 @@ def pending_count() -> int | None:
     except subprocess.TimeoutExpired:
         return None
     match = re.search(r"Pending:\s+(\d+) need embedding", result.stdout)
-    return int(match.group(1)) if match else None
+    if match:
+        return int(match.group(1))
+    if re.search(r"Vectors:\s+\d+ embedded", result.stdout):
+        return 0
+    return None
 
 
 def main() -> int:

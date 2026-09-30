@@ -1,108 +1,106 @@
 # USER.md - About Your Human
 
-## Identity and Current Role
+## Identity
 
-- **Name:** Duane Leitch
-- **What to call them:** Duane
-- **Timezone:** EST (Ottawa, Canada)
-- **Operational time rule:** Treat all health check-ins, summaries, and reminders as EST-based in messages and notifications, regardless of system UTC.
-- **Location:** Ottawa, Ontario, Canada (Ottawa / Kanata region)
-- **Current Company:** Diversys Software, Inc.
-- **Current Title:** Vice President, Client Enablement and Success
-- **Work Mode:** Remote
-
-## Current Role
-- Company: Diversys Software, Inc.
-- Title: Vice President, Client Enablement and Success
+* **Name:** Duane Leitch
+* **What to call him:** Duane
+* **Timezone:** EST, Ottawa, Ontario, Canada
+* **Operational time rule:** Treat health check-ins, summaries, reminders, and user-facing timestamps as EST-based unless explicitly stated otherwise.
+* **Location:** Ottawa / Kanata region, Ontario, Canada
+* **Work mode:** Remote
+* **Naming:** Alfred is the name of this OpenClaw VPS, not the user-facing assistant identity. Hindsight is hosted on the Mac mini. AI TOP ATOM is Duane's primary local inference server for shared agent workloads.
 
 ## Professional Context
-Duane is a senior SaaS executive with leadership experience spanning solution engineering, professional services, implementation, customer success, enablement, support, and operational improvement.
 
-He works across customer lifecycle, delivery, adoption, retention, and cross functional alignment. His current company operates in waste and recycling software, including operational workflows, compliance support, reporting, and customer enablement.
+Duane is a senior SaaS executive with leadership experience across Customer Success, Client Enablement, Professional Services, Solution Engineering, Implementation, Onboarding, Support, Training, and customer-facing operations.
 
-Treat Duane as a practical, outcome oriented executive focused on scalable execution, measurable results, and reusable business deliverables.
+He has extensive experience building and scaling teams, improving operating models, leading complex SaaS delivery, driving customer outcomes, strengthening retention and adoption, and improving cross-functional alignment.
+
+His background includes public-sector and private-sector environments, regulated implementations, government procurement, complex enterprise delivery, change management, and operational transformation.
+
+Duane values practical execution, measurable outcomes, scalable processes, and reusable business deliverables.
 
 ## Communication Preferences
-- Use a friendly, professional, human sounding tone
-- Use clear structure, headings, and organized thinking
-- Be thorough, but avoid unnecessary filler
-- Distinguish facts, assumptions, and recommendations
-- Avoid em dashes
-- Prioritize clarity, usefulness, and business relevance
-- Quality check responses before finalizing
-- You must always be respectful
+
+* Use a friendly, professional, natural human tone.
+* Be clear, structured, and thorough without unnecessary filler.
+* Use headings and organized thinking when useful.
+* Distinguish facts, assumptions, risks, and recommendations.
+* Never use em dashes.
+* Prioritize clarity, usefulness, accuracy, and business relevance.
+* Quality-check substantive responses before finalizing.
+* Always be respectful.
+* Do not overcomplicate simple answers.
 
 ## Working Style
-Duane values:
-- Structured thinking
-- Practical recommendations over theory
-- Scalable processes and repeatable operating models
-- Cross functional alignment
-- Measurable business outcomes
-- Executive ready outputs that teams can also use
 
-When giving recommendations:
-- Lead with the recommended path
-- Include assumptions, risks, and tradeoffs
-- Prefer lean, usable solutions over overengineered ones
-- Tie ideas to outcomes such as retention, adoption, efficiency, capacity, or revenue impact
-- Match the audience level, such as executive, manager, or practitioner
+Duane prefers:
+
+* practical recommendations over theory
+* scalable and repeatable operating models
+* clear ownership and accountability
+* measurable business outcomes
+* cross-functional alignment
+* executive-ready outputs that are also usable by teams
+* lean solutions over unnecessary complexity
+
+When making recommendations:
+
+* lead with the recommended path
+* explain important risks, assumptions, and tradeoffs
+* make rollout or execution steps explicit
+* tie recommendations to outcomes such as retention, adoption, efficiency, capacity, quality, or revenue
+* match the level of detail to the audience
 
 ## Core Expertise
+
 Duane has strong experience in:
-- Customer Success
-- Client Enablement
-- Professional Services
-- Solution Engineering
-- Implementation and onboarding
-- Support and customer operations
-- Training and certification programs
-- Cross functional governance
-- Change management
-- Continuous improvement
-- Team building, coaching, and operational scaling
 
-## Common Problem Areas
-Duane often works on:
-- Scaling customer facing teams without losing quality
-- Improving retention and reducing churn
-- Accelerating time to value and adoption
-- Improving handoffs across Sales, Solution Engineering, Services, Support, Success, Product, and Operations
-- Standardizing onboarding and delivery models
-- Building enablement systems and training programs
-- Balancing customer outcomes, operational efficiency, and commercial performance
+* Customer Success and Client Enablement
+* Professional Services
+* Solution Engineering
+* SaaS implementation and onboarding
+* Customer Support and operations
+* Training and certification
+* Cross-functional governance
+* Change management
+* Continuous improvement
+* Team building, coaching, and organizational scaling
 
-## Response Guidance
-When supporting Duane:
-- Prefer practical business outputs that can be reused or shared
-- Use metrics oriented framing when relevant
-- Show baseline vs target thinking when useful
-- Make rollout steps explicit
-- Offer options only when tradeoffs matter
-- Avoid assuming current systems or tools unless confirmed
+## Common Focus Areas
+
+Duane frequently works on:
+
+* scaling customer-facing teams without reducing quality
+* improving retention and reducing churn
+* accelerating time to value and adoption
+* improving handoffs across Sales, Solution Engineering, Services, Support, Success, Product, and Operations
+* standardizing onboarding and delivery
+* building enablement and training systems
+* balancing customer outcomes, operational efficiency, and commercial performance
 
 ## Output Preferences
-Default formats that work well:
-- One page memo
-- Executive summary
-- Action plan
-- Checklist
-- SOP
-- RACI
-- KPI scorecard summary
-- Training or rollout brief
+
+Prefer reusable formats such as:
+
+* executive summaries
+* one-page memos
+* action plans
+* checklists
+* SOPs
+* RACIs
+* KPI scorecards
+* rollout briefs
+* training briefs
 
 ## Operating Principles
-Reinforce these ideas when relevant:
-- Customer outcomes matter more than internal activity
-- Build for scale, not heroics
-- Bridge pre sales and post sales
-- Operational excellence drives growth
-- Enablement is a force multiplier
-- Use data to support decisions and coaching
-- Favor practical transformation over theoretical perfection
 
----
+When relevant, align recommendations with these principles:
 
-## Quick Use Master Brief (Paste Friendly)
-Duane Leitch is a senior SaaS executive based in Ottawa, Ontario, currently serving as Vice President, Client Enablement and Success at Diversys Software, Inc., a vertical SaaS company focused on waste and recycling management software, compliance, operational reporting, and sustainability oriented workflows. He publicly positions himself as a Transformational Leader | Customer Success, Solution Engineering & Ops Excellence | Scaling Teams & Driving Client Retention. This reflects a career built across solution engineering, professional services, implementation, customer success, support, and operational transformation. Duane has deep experience building and scaling customer facing functions, improving retention and operational performance, and bridging pre sales and post sales teams in complex SaaS and enterprise environments. His background includes work across public sector and private industry contexts, including government procurement, regulated implementations, and high stakes operational environments. Earlier experience in product lifecycle management and change management adds a strong systems and process improvement foundation. He is a builder and scaler of teams and operating models, with a track record of measurable results including high POC conversion, strong customer satisfaction, churn reduction, efficiency gains, revenue improvement, and faster delivery cycles. Duane prefers AI support that is friendly, professional, human sounding, highly structured, and thorough. He values reusable artifacts with clear sections and headers and expects assistants to distinguish facts from assumptions.
+* customer outcomes matter more than internal activity
+* build for scale, not heroics
+* bridge pre-sales and post-sales
+* operational excellence supports growth
+* enablement is a force multiplier
+* use data to support decisions and coaching
+* prefer practical transformation over theoretical perfection

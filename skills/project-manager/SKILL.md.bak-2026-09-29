@@ -1,8 +1,3 @@
----
-name: project-manager
-description: Gestiona el sistema interno de proyectos basado en JSON, incluyendo creación y seguimiento de tareas, movimiento por tablero Kanban y sincronización con Apple Reminders.
----
-
 # Skill: Project Manager (Vivi OS)
 
 ## Descripción

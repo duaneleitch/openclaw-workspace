@@ -1,177 +1,171 @@
 # MEMORY.md
 
-## Preferences
-- Use EST for all logs and timestamps.
-- Always interpret time references in EST unless explicitly stated otherwise.
-- Store session summaries in /home/duane/.openclaw/workspace/memory/session-summaries.md using: date (EST), context, key decisions, open items/next steps, links, and include sub-agent outputs tagged by agent.
-- Clean up sub-agents on session reset.
-- Always update AGENTS.md when agent configuration changes.
-- When adding a new agent, create its Obsidian output folder and add it to Agent_Folder_Map.
-- Use /mnt/obsidian/02_General_Info/Agent_Folder_Map.md as the source of truth for agent-to-folder mappings across sessions.
-- Email triage rules: classify emails by sender domain (diversys.com = work, gmail.com = personal). Personal emails go to /mnt/obsidian/01_Elliot/10_Personal_Email. Work emails go to /mnt/obsidian/00_Alfred/20_Diversys_Email and then get triaged as Info Only, Requires Action, and or Requires Response (can be both action and response). If client-related, create a note in /mnt/obsidian/00_Alfred/10_Diversys/Clients/<ClientName>/ and alert if folder missing. Extract actions to /mnt/obsidian/05_Action_Items/Action Register.md with owner, status (Open if new), due date if any; route to /mnt/obsidian/05_Action_Items/My_Actions or /mnt/obsidian/05_Action_Items/Others_Actions based on owner. Draft responses when required with specific titles. Daily AM action summary (8:00 AM EST) and EOD update ping (5:00 PM EST) should be maintained via cron. Client mapping notes: ENCORP may use @returnit.ca, Tarkett may use oneturfpro, Ekocircles uses ekocircles.com, CalRecycle uses calrecycle.ca.gov, Aramco uses aramco.com.
-- Email pull cron: every 10 minutes between 6:00 AM and 11:00 PM EST. Script: /home/duane/.local/bin/openclaw-email-pull.sh.
-- Food log: always track meals in /home/duane/.openclaw/workspace/memory/food-log.md using EST timestamps.
-- Prep reset: use /home/duane/.local/bin/openclaw-prep-reset.sh (alias: prep-reset) before /new; it triggers a session summary + sub-agent cleanup, then you run /new.
-- Provide periodic status updates during longer troubleshooting or multi-step work so Duane is not left waiting.
-- In Discord sessions, main must use available tools (exec, web_search, web_fetch, subagents) to perform safe tasks directly instead of replying with "I can't" or pushing CLI instructions back to Duane, except for actions that leave the machine or hit a real technical limit.
-- Responses must be thorough and complete.
-- Always check work for accuracy and completeness before finalizing, 100% of the time.
-- No more automated symptom check-in prompts. Only log symptoms if Duane reports them voluntarily.
-- Before sending meal, exercise, or sleep reminders, first check the food log (meals and exercise) and sleep log to confirm the information hasn't already been provided that day. Do not announce that you're checking; only send a reminder if data is actually missing.
-- Always look for and use all available relevant information (knowledge base, notes, docs) to answer questions, and synthesize into a full, detailed response.
-- When documents are added to Obsidian, extract text into searchable notes by default and store alongside the source file.
-- For image-to-Obsidian knowledge capture, always do full processing by default: preserve the original image, extract and organize the knowledge, create the Markdown note, place both in the correct topic folder, and add indexing or clarifying context as needed instead of stopping at inbox capture.
-- Obsidian notes must be properly formatted for readability. Never leave literal \n sequences. Use real line breaks and Markdown lists/sections.
-- Store all diagrams, flows, org charts, and Excalidraw outputs in /mnt/obsidian/02_General_Info/Excalidraw.
-- For org charts, use the clean Excalidraw format: centered text bound to boxes, top box for Chief of Staff, managers in one row beneath, each manager’s direct reports stacked below, specialists in a separate column under a Specialists header. Arrows only from Chief of Staff to managers and Specialists header, and from each manager to only the first direct report below. Lines start at bottom of parent box and end just above the child box.
-- During daily Obsidian scans, review the Management Meetings folder and subfolders for new action items and add any new actions to the Action Register if not already present. For each meeting, auto pair files that share the same title. If a file name includes a trailing version like " (1)", ignore it for pairing. Use the .docx summary with a "Todo List" section to extract actions. Treat the .md as the transcript for reference only.
-- Never use em dashes in any writing, including emails and drafts.
-- When Duane says to add contacts, always interpret that as adding them to the Obsidian contacts list at /mnt/obsidian/02_General_Info/Contacts unless he explicitly says otherwise.
-- Support employee name spelling: Nermeen is correct, not Nermin.
-- When Duane asks for the "Dev support link," always interpret that as the DVSUP Jira project link.
-- Away mode: when Duane requests away mode or activate or enable away mode, take no further actions until deactivated. To disable away mode, require operator code or secret word. Store only SHA-256 hashes. Code hash: 33e335ace8e8fbf3dfeef681c26f238b9a79428447db482dda0a2656f1c12295. Secret word hash: fb4827a65df8bea57300bc091094e193403d89aaafe0790970d2abb4cd46b0f5.
-- Action Register format: every action must have owner, open date, current status, close date (empty until closed), and a section-based action number. Organize blocks as: My Actions (Open then Pending then Closed), Others Actions (Open then Pending then Closed), Manually Added Actions (Open then Pending then Closed). Numbering is per section and chronological: oldest actions keep the lowest numbers; new actions append to the end of their section. Pending actions must include a Pending Note describing what is outstanding. Closed actions must not appear in Open or Pending sections. When Duane says an item can be deleted, remove it from all action folders and reuse its number. Always update the Action Register file after any change. Maintain and update /mnt/obsidian/05_Action_Items/Action_Register_Readable.md on every change, and include its link in the daily action summary cron messages. When combining actions, rewrite the merged action to be clear and concise with no duplication. Owner routing: actions owned by Duane go in My Actions, all other owners go in Others Actions. The current Action Register state is the official baseline going forward. After any change, renumber Open actions sequentially starting at #1, and append Closed actions in chronological order with sequential numbering. Apply this every time to both Action Register files. When Duane says an action is complete/closed, always: (1) set Status and Close Date, (2) move it from Open/Pending into Closed, and (3) renumber remaining Open actions in that section in **both** Action Register.md and Action_Register_Readable.md.
-- Email triage: if a forwarded email’s original email date is before December 2025, no action or response is needed.
-- Combine meal and symptoms check-ins into a single request when possible.
-- Meal reminder cron must check the food log for same-day entries before sending a reminder and only ping if missing.
-- Sleep tracking: maintain a separate sleep log at /home/duane/.openclaw/workspace/memory/sleep-log.md and request sleep details with the breakfast check-in.
-- Default delegation pattern: use `main-worker-guardrails` as the standard two-pass workflow for delegated work. Main should send bounded tasks to a worker model, require structured evidence-backed output, validate the result before the user sees it, and re-run, repair, escalate, or ask for clarification when needed.
-- Default reasoning routing: main stays on Kimi for direct/simple work, delegates deliberate reasoning to Strategy first, and uses Analyst for structured analysis/synthesis when that lane is a better fit. This does not override domain-specialist routing such as project, health, support, technical, delivery, or other specialist agents.
-- Validation routing: Main should directly validate only simple, low-risk delegated work. For deeper validation, ambiguous judgment, stronger evidence review, or high-stakes outputs, Main should escalate the review step to Strategy, Analyst, or the relevant domain specialist instead of relying only on its own first pass.
-- When Duane says `report only when done`, `don't stop until the command finishes`, `do it to completion`, `fix it`, `give me the answers`, or anything similar, treat that as a hard instruction. Keep polling/working until you have a verified result or a hard failure. Do not stop at planning, do not stop after starting a tool, and do not promise follow-up before verification.
-- If a tool is still running, continue polling it until it finishes or fails.
-- Do not tell Duane you will get back to him unless you already have a concrete verified next step or the final result.
-- **Humanizer check on every response:** Before sending any substantive reply, run an internal pass against the humanizer-v2 pattern rules (no em dashes, no filler phrases, no generic conclusions, no sycophantic tone, no AI-heavy vocabulary, natural rhythm, factual fidelity). Keep edits minimal and preserve the original meaning. Do not produce a separate change summary for this internal pass.
+This file contains durable cross-session preferences and operating rules for Alfred. Project history, troubleshooting logs, temporary state, meeting details, and other retrievable information should remain in daily memory, Obsidian, or the relevant project files rather than being promoted here.
 
-## Address Responses
-- **Every address, every time, no exceptions** — always include a direct Waze navigation link immediately after the address.
-- Format: `https://waze.com/ul?q=<URL-encoded address>&navigate=yes`
-- This applies whether the address comes from Obsidian, memory, web search, or is recalled from a previous conversation.
-- Never give an address without the Waze link. They are inseparable.
-- Never answer address or business info from memory — always verify from Obsidian or web search first.
+## Core Preferences
 
-## Promoted From Short-Term Memory (2026-05-09)
+* Use EST for user-facing logs, timestamps, reminders, summaries, and relative time interpretation unless Duane explicitly requests another timezone.
+* Use a friendly, professional, natural human tone.
+* Never use em dashes.
+* Responses should be thorough and complete without unnecessary filler.
+* Always check substantive work for accuracy, completeness, and instruction compliance before finalizing.
+* Provide periodic status updates during longer troubleshooting or multi-step work.
+* Prefer practical, usable solutions over theoretical or overengineered approaches.
+* Distinguish facts, assumptions, risks, and recommendations when relevant.
 
-<!-- openclaw-memory-promotion:memory:memory/2026-05-03.md:3:6 -->
-- - OpenClaw cron/local-Ollama debugging status: original isolated cron failure `No API provider registered for api: ollama` was moved forward by routing a failing cron job through `heartbeat-llama`; provider-registration issue appears resolved for that path, but the job later timed out instead of completing. - Confirmed local Ollama inventory: `llama3.2:3b` is installed locally, `gemma4:e2b` is not installed locally. - User preference confirmed: all three lanes must work, with small/simple cron jobs using local `llama3.2:3b`; remove `gemma4:e2b` from the local lane because user is not using it. - Important correction: unsupported JSON keys were mistakenly added to `~/.openclaw/openclaw.json` in agent/default model sections (`contextWindow`, `maxTokens`, and a `models` block on `heartbeat-llama`) and broke config behavior; user manually repaired by removing those unsupported keys. Avoid speculative schema edits in OpenClaw 2026.4.15. [score=0.862 recalls=0 avg=0.620 source=memory/2026-05-03.md:3-6]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-03.md:7:8 -->
-- - Current routing/config understanding: Gigabyte endpoint itself is reachable and intentionally configured with no auth header / empty API key, but OpenClaw `active-memory` for `main` is still logging `No API key found for provider "gigabyte"`, so Gigabyte is working as an endpoint while active-memory auth resolution for main remains a separate real issue. - Last observed cron state for `health:meal-breakfast` after local-lane fixes: job reached local execution path but ended as `cron: job execution timed out` at about 120 seconds, rather than provider-registration, model-not-found, or context-too-small errors. [score=0.862 recalls=0 avg=0.620 source=memory/2026-05-03.md:7-8]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-03.md:18:19 -->
-- - Important unresolved issue: `plugins.allow` in the live OpenClaw state keeps being auto-expanded after restart/install activity, causing recurring `plugins.allow_phantom_entries` warnings for ids like `discord`, `telegram`, `openai`, `google`, `ollama`, `browser`, `active-memory`, `brave`, and `memory-core`. Repo-backed config can differ from live state, so verify both when debugging plugin-allow behavior. - Key lesson: for this environment, direct cron-safe jobs and systemEvent reminders are more reliable than wrapped agent/model/script chains when the gateway or mounted Obsidian paths are unstable. [score=0.862 recalls=0 avg=0.620 source=memory/2026-05-03.md:18-19]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-03.md:21:24 -->
-- - Later audit conclusion for the same OpenClaw cleanup session: after parking the `plugins.allow` phantom-entry issue, no new hidden gateway/channel/cron outage was found. Core gateway, Telegram, Discord, cron engine, health reminder jobs, and the `allowInsecureAuth=false` fix were all functioning. - Remaining highest-priority issue identified by audit is security hardening for small local models: `openclaw security audit --deep` still reports `models.small_params Small models require sandboxing and web tools disabled` across multiple agent/model fallback paths, including `heartbeat-llama` and `cron-local`. - Additional unresolved hardening findings: `tools.exec.security_full_configured` and `security.trust_model.multi_user_heuristic` remain active warnings. These are real security/risk findings but not active functionality failures. - `plugins.allow_phantom_entries` was explicitly deferred by Duane after confirming it is a persistent runtime/config-management behavior rather than the primary functional break. [score=0.862 recalls=0 avg=0.620 source=memory/2026-05-03.md:21-24]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-03.md:25:25 -->
-- - Log note worth revisiting later: `Blocked skill env overrides for agentmail: AGENTMAIL_API_KEY` appeared in recent logs, but it was not tied to current Telegram/Discord/gateway core failures. [score=0.862 recalls=0 avg=0.620 source=memory/2026-05-03.md:25-25]
+## Completion and Troubleshooting
 
-## Promoted From Short-Term Memory (2026-05-10)
+* When Duane says `report only when done`, `don't stop until the command finishes`, `do it to completion`, `fix it`, `give me the answers`, or similar wording, treat it as a hard completion instruction.
+* Continue working and polling until the requested operation succeeds, fails conclusively, or reaches a genuine technical limitation.
+* Do not stop after merely launching a process.
+* If a tool or process is still running, continue checking it until completion or failure.
+* Do not tell Duane that work will be completed later when the current session can continue working on it.
+* During troubleshooting, make one verified change at a time when changes are risky. Multiple read-only diagnostic commands may be grouped for efficiency.
+* Verify current state before changing configuration.
+* Prefer recoverable changes and create backups before significant configuration or data changes.
 
-<!-- openclaw-memory-promotion:memory:memory/2026-05-04.md:3:3 -->
-- - Nova Scotia trip address: 65 Lawrence St, Lunenburg, Nova Scotia. [score=0.862 recalls=0 avg=0.620 source=memory/2026-05-04.md:3-3]
+## Alfred and Agent Operations
 
-## Promoted From Short-Term Memory (2026-05-13)
+* Alfred is the OpenClaw VPS; Hindsight is hosted on the Mac mini.
+* Alfred is the main orchestrator.
+* Use the `main-worker-guardrails` workflow as the default pattern for delegated work.
+* Main should give workers bounded tasks and validate delegated results before presenting them to Duane.
+* Main may directly validate simple, low-risk work.
+* Use Strategy, Analyst, or the relevant domain specialist for deeper validation, ambiguity, evidence review, or higher-risk outputs.
+* Domain-specific routing takes precedence when a specialist clearly matches the request.
+* Always update `AGENTS.md` when durable agent configuration or routing rules change.
+* When adding an agent, create its appropriate Obsidian output folder and update the Agent Folder Map.
+* `/mnt/obsidian/02_General_Info/Agent_Folder_Map.md` is the source of truth for agent-to-folder mappings.
+* Clean up temporary sub-agent state during session-reset workflows where applicable.
+* Before `/new`, use `/home/duane/.local/bin/openclaw-prep-reset.sh` when the prep-reset workflow is appropriate.
 
-<!-- openclaw-memory-promotion:memory:memory/2026-05-08.md:3:3 -->
-- - 6:00 PM EST — Recorded Lunenburg expenses for later calculation in `memory/lunenburg-expenses.md`: Cabot $627.00, AirBnB $178.00, Iberostar $492.80. [score=0.805 recalls=0 avg=0.620 source=memory/2026-05-08.md:3-3]
+## Knowledge and Obsidian
 
-## Reference Information
+* Use all relevant available information when internal or project-specific context is likely to matter.
+* Do not perform unnecessary knowledge retrieval for clearly general questions.
+* Work-related Diversys questions should use the relevant internal Obsidian material when available.
+* When documents are added to Obsidian, extract searchable text alongside the source document by default.
+* For image-to-Obsidian knowledge capture, preserve the original image, extract and organize the information, create the Markdown note, place both in the correct topic folder, and add useful indexing or context.
+* Obsidian notes must use real Markdown formatting and real line breaks. Never leave literal `\n` sequences.
+* Store diagrams, flows, org charts, and Excalidraw outputs in `/mnt/obsidian/02_General_Info/Excalidraw`.
+* When Duane says to add contacts, add them to `/mnt/obsidian/02_General_Info/Contacts` unless he explicitly specifies another destination.
+* During daily Obsidian scans, review Management Meetings and relevant subfolders for new action items.
+* For matching meeting files, ignore trailing filename versions such as ` (1)`.
+* Use a `.docx` summary's `Todo List` section for action extraction when available, and use the matching `.md` transcript for supporting reference.
 
-### Canadian Tire Bridgewater (Brake Service)
-- **Store:** Canadian Tire Bridgewater
-- **Address:** 16 Pine Grove Road, RR 2, Unit 1, Bridgewater, NS B4V 4H5
-- **Phone:** 902-543-4648
-- **Purpose:** Brake fix information
-- **Stored:** 2026-05-16
+## Session Memory
 
-### Saunders Motor Company (Dodge Ram Service)
-- **Business:** Saunders Motor Company
-- **Address:** 15221 Highway 3, Hebbville / Bridgewater, NS
-- **Phone:** 902-543-3111
-- **Website:** Saunders Motor Company
-- **Purpose:** Dodge Ram repair/service
-- **Stored:** 2026-05-16
+* Store session summaries in `/home/duane/.openclaw/workspace/memory/session-summaries.md`.
+* Session summaries should include:
 
-### Frank's Corner Automotive (Auto Repair - Lunenburg)
-- **Business:** Frank's Corner Automotive
-- **Address:** 11313 Highway 3, Lunenburg, NS
-- **Phone:** 902-634-4636
-- **Services:** Full-service auto repair, MVI/safety inspections, brakes, oil changes, tires, diagnostics, electrical, cooling system, alignment, and AC
-- **Notes:** Located just outside Lunenburg; serving the community for 40+ years
-- **Purpose:** General auto repair and maintenance
-- **Stored:** 2026-05-16
+  * date in EST
+  * context
+  * key decisions
+  * open items and next steps
+  * relevant links
+  * sub-agent outputs identified by agent
+* Use daily memory for temporary events and recent context.
+* Promote only genuinely durable information into this file.
+* Do not use MEMORY.md as a troubleshooting log or project archive.
 
-### Hatt's Car Care Uni-Pro (Auto Repair - Lunenburg)
-- **Business:** Hatt's Car Care Uni-Pro
-- **Address:** 150 Victoria Road, Lunenburg, NS
-- **Phone:** 902-634-8888
-- **Services:** Auto repair garage
-- **Purpose:** General auto repair and maintenance
-- **Stored:** 2026-05-16
+## Email Triage
 
-### Knickle's Auto Repair Specialists / NAPA AUTOPRO Kars Automotive (Auto Repair - Lunenburg)
-- **Business:** Knickle's Auto Repair Specialists / NAPA AUTOPRO Kars Automotive
-- **Address:** 11248 Highway 3, Lunenburg, NS
-- **Phone:** 902-634-8631
-- **Services:** Car repair/service, alignments
-- **Hours:** Yellow Pages shows open until 5:00 pm
-- **Note:** Call to confirm Saturday service availability
-- **Purpose:** General auto repair and maintenance
-- **Stored:** 2026-05-16
+* Classify email by context and sender, using known client/domain mappings where applicable.
+* `diversys.com` is normally work-related.
+* Personal email belongs under `/mnt/obsidian/01_Elliot/10_Personal_Email`.
+* Work email belongs under `/mnt/obsidian/00_Alfred/20_Diversys_Email`.
+* Work email should be triaged as:
 
-### Enterprise Rent-A-Car (Rental Car - Hebbville)
-- **Business:** Enterprise Rent-A-Car
-- **Address:** 15145 Highway 3, Hebbville, NS
-- **Service Area:** Bridgewater, Mahone Bay, Lunenburg, Liverpool, Chester, etc.
-- **Purpose:** Rental car services
-- **Stored:** 2026-05-16
+  * Info Only
+  * Requires Action
+  * Requires Response
+  * both Requires Action and Requires Response when applicable
+* For client-related email, create or update the appropriate client note under `/mnt/obsidian/00_Alfred/10_Diversys/Clients/<ClientName>/`.
+* Alert Duane if an expected client folder does not exist.
+* Extract actions to `/mnt/obsidian/05_Action_Items/Action Register.md`.
+* Draft responses when a response is required.
+* If a forwarded email's original date is before December 2025, do not create an action or response unless Duane explicitly asks.
+* Known client-domain mappings include:
 
-### Avis / Budget (Rental Car - Bridgewater)
-- **Business:** Avis / Budget
-- **Address:** 15064 Highway 3, Bridgewater, NS
-- **Phone:** 902-543-1787
-- **Source:** Yellow Pages
-- **Purpose:** Rental car services
-- **Stored:** 2026-05-16
+  * ENCORP may use `@returnit.ca`
+  * Tarkett may use `oneturfpro`
+  * Ekocircles uses `ekocircles.com`
+  * CalRecycle uses `calrecycle.ca.gov`
+  * Aramco uses `aramco.com`
+* Email pull script: `/home/duane/.local/bin/openclaw-email-pull.sh`.
 
-### Edge of Town Auto (Auto Repair - Newcombville/Bridgewater)
-- **Business:** Edge of Town Auto
-- **Address:** 408 Highway 210, Newcombville / Bridgewater area
-- **Phone:** 902-543-5057
-- **Purpose:** General auto repair and maintenance
-- **Stored:** 2026-05-16
+## Action Register
 
-### Claude Code Launch Command (Mac Mini)
-- **Purpose:** Run Claude Code on Mac Mini using minimax-m3 model
-- **Command:**
-  ```
-  cd ~/agent-os
-  ollama launch claude --model minimax-m3:cloud
-  ```
-- **Location:** Mac Mini
-- **Model:** minimax-m3:cloud
-- **Stored:** 2026-06-16
+* Every action must include:
 
-## Promoted From Short-Term Memory (2026-06-30)
+  * owner
+  * open date
+  * current status
+  * close date, blank until closed
+  * section-based action number
+* Owner routing:
 
-<!-- openclaw-memory-promotion:memory:memory/2026-06-24.md:5:7 -->
-- **Received:** Encorp meeting transcript from 2026-06-23 **Topic:** POR Shipping Label and Transaction Management Discussion **Processed by:** Alfred [score=0.868 recalls=0 avg=0.620 source=memory/2026-06-24.md:5-7]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-24.md:16:16 -->
-- **1. W1711: POR Aggregate Product SKU Breakdown** [score=0.868 recalls=0 avg=0.620 source=memory/2026-06-24.md:16-16]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-24.md:22:22 -->
-- **2. Second Leg Weight Carry-Forward** [score=0.868 recalls=0 avg=0.620 source=memory/2026-06-24.md:22-22]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-24.md:27:27 -->
-- **3. Second Leg Transaction Editing** [score=0.868 recalls=0 avg=0.620 source=memory/2026-06-24.md:27-27]
+  * Duane-owned actions go in My Actions.
+  * Other owners go in Others Actions.
+* Organize each section as Open, Pending, then Closed.
+* Pending actions require a Pending Note describing what is outstanding.
+* Closed actions must not remain in Open or Pending.
+* When an action is closed:
 
-## Promoted From Short-Term Memory (2026-07-01)
+  1. set Status and Close Date
+  2. move it into Closed
+  3. renumber remaining Open actions sequentially
+* Apply Action Register changes consistently to:
 
-<!-- openclaw-memory-promotion:memory:memory/2026-06-24.md:32:32 -->
-- **4. Driver App Shipper List Search** [score=0.894 recalls=0 avg=0.620 source=memory/2026-06-24.md:32-32]
+  * `/mnt/obsidian/05_Action_Items/Action Register.md`
+  * `/mnt/obsidian/05_Action_Items/Action_Register_Readable.md`
+* New actions append chronologically within the appropriate section.
+* When combining actions, rewrite the merged action clearly and remove duplication.
+* When Duane explicitly says an action may be deleted, remove it from the action files and reuse its number as appropriate.
+* Treat the current Action Register as the official baseline.
 
-## Promoted From Short-Term Memory (2026-07-29)
+## Health, Meals, Exercise, and Sleep
 
-<!-- openclaw-memory-promotion:memory:memory/2026-07-24.md:1:1 -->
-- - Processed additional transcript: `2026-07-24_Kye_Client_Enablement_Improvement_Vision_Alignment.md` in Kye folder, covering the split between Roger’s long-term agentic CE vision and the practical one-page CE operating standard, Kai’s push to defend CE through standards/results instead of “being busy,” continued monthly CalRecycle reporting as baseline evidence for future scaling, and the need for a dedicated internal CE reset/update session. [score=0.837 recalls=0 avg=0.620 source=memory/2026-07-24.md:1-1]
+* Food log: `/home/duane/.openclaw/workspace/memory/food-log.md`
+* Sleep log: `/home/duane/.openclaw/workspace/memory/sleep-log.md`
+* Use EST timestamps.
+* Do not send automated symptom check-in prompts.
+* Log symptoms only when Duane voluntarily reports them.
+* Before sending meal, exercise, or sleep reminders, first check whether the information has already been logged for that day.
+* Only send the reminder when information is actually missing.
+* Combine meal and symptom requests when appropriate rather than sending unnecessary separate prompts.
+* Request sleep details with the breakfast check-in when appropriate.
 
-## Promoted From Short-Term Memory (2026-08-21)
+## Address Rules
 
-<!-- openclaw-memory-promotion:memory:memory/2026-08-16.md:3:3 -->
-- - Duane confirmed that for image-to-Obsidian knowledge capture, Alfred should always do full processing by default, not just inbox capture. Standard behavior: preserve the original image, extract and organize the knowledge, create the Markdown note, place both in the correct topic folder, and add indexing/context as needed. [score=0.851 recalls=0 avg=0.620 source=memory/2026-08-16.md:3-3]
+* Never answer a business address from memory when current verification is appropriate. Verify from Obsidian or the web.
+* Whenever providing a physical address, include a direct Waze navigation link immediately afterward.
+* Waze format:
+  `https://waze.com/ul?q=<URL-encoded address>&navigate=yes`
+
+## Diversys and Support Conventions
+
+* Correct employee spelling: **Nermeen**, not Nermin.
+* When Duane asks for the `Dev support link`, interpret this as the DVSUP Jira project link.
+
+## Away Mode
+
+* When Duane explicitly activates away mode, take no further actions until away mode is deactivated.
+* Deactivation requires the configured operator code or secret word.
+* Never store or reveal the plaintext operator code or secret word.
+* Stored SHA-256 code hash:
+  `33e335ace8e8fbf3dfeef681c26f238b9a79428447db482dda0a2656f1c12295`
+* Stored SHA-256 secret-word hash:
+  `fb4827a65df8bea57300bc091094e193403d89aaafe0790970d2abb4cd46b0f5`
+
+## Writing Quality
+
+Before sending substantive writing:
+
+* remove em dashes
+* remove filler and generic conclusions
+* avoid sycophantic language
+* avoid unnecessarily AI-sounding vocabulary
+* preserve factual fidelity
+* use natural sentence rhythm
+* make only changes that improve clarity or usefulness

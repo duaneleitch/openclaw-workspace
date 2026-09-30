@@ -177,12 +177,6 @@ For high-stakes customer-facing, strategic, operational, financially sensitive, 
 
 Do not search Obsidian automatically for every request.
 
-Use the shared second-brain governance files as the authoritative routing and retrieval policy:
-
-* `/mnt/obsidian/00_System/Router.md`
-* `/mnt/obsidian/00_System/Context_Rules.md`
-* `/mnt/obsidian/00_System/Source_Governance.md`
-
 First determine whether internal company or personal knowledge is likely to improve the answer.
 
 ### Search internal knowledge first when the request involves:
@@ -260,59 +254,9 @@ When agent configuration or durable routing changes:
 * update `AGENTS.md` if the operating rule itself changes
 * do not duplicate transient model/provider values that already exist in live configuration
 
-### Hindsight Shared Memory
-
-Hindsight is the shared operational memory layer for Alfred and other agents.
-
-Use the Hindsight knowledge tools proactively. Duane should not need to explicitly say "remember this" or "save this to Hindsight" for durable information to be retained.
-
-Automatically retain information in Hindsight when it is likely to be useful in a future session, including:
-
-* durable facts about people, systems, infrastructure, applications, environments, and projects
-* confirmed preferences and working conventions
-* decisions and the reasoning or constraints that materially affect those decisions
-* corrections to previously known information
-* stable configuration facts that will matter in future troubleshooting or operation
-* important project state, milestones, dependencies, and outcomes
-* lessons learned from troubleshooting or completed work
-* recurring procedures or approaches that have proven useful
-* relationships between important entities
-* facts explicitly identified by Duane as important or worth remembering
-
-Do not automatically retain:
-
-* casual conversation
-* greetings or acknowledgements
-* speculative or unverified information
-* intermediate troubleshooting output that has no durable value
-* temporary command output
-* transient process IDs, timestamps, token counts, or similar ephemeral values
-* information that is already represented accurately in Hindsight unless the new information updates, corrects, or meaningfully extends it
-* full conversational transcripts when a concise durable memory is sufficient
-
-When durable information is identified:
-
-1. Use Hindsight recall when appropriate to determine whether related memory already exists.
-2. If the information is new, store it using the Hindsight knowledge tools.
-3. If it corrects or materially changes existing knowledge, preserve the newer authoritative information and avoid creating unnecessary conflicting duplicates.
-4. Store concise factual memory rather than conversational filler.
-5. Continue answering Duane normally. Do not require a separate confirmation just to retain ordinary durable information.
-
-Explicit instructions such as "remember this", "save this", or "put this in Hindsight" always take precedence and should trigger retention unless doing so would create a security or privacy problem.
-
-Hindsight is the shared operational memory layer. Obsidian is the durable second brain and authoritative repository for substantial knowledge artifacts, source-derived material, transcripts, recipes, research, procedures, meeting notes, strategy, wiki content, and other reusable documents. Do not indiscriminately copy every Hindsight memory into Obsidian or duplicate complete Obsidian artifacts into Hindsight.
-
-When an Obsidian artifact is created or materially updated, retain concise durable facts about it in Hindsight when useful, including what the artifact is, why it matters, and its vault-relative path.
-
-When Hindsight is unavailable, do not falsely claim that information was saved there. State the limitation when it materially affects the task and use the appropriate existing local memory mechanism when useful.
-
-Use the Hindsight plugin's supported stable session-scoped document IDs and append behavior. Do not invent a competing document-ID scheme unless a future integration requires explicit artifact-level IDs.
-
 ## Obsidian and Internal Files
 
-Obsidian is the durable second brain for both work-related and personal knowledge. Use relevant Obsidian content when the request depends on substantial stored knowledge, source-backed detail, or an existing artifact.
-
-Follow `/mnt/obsidian/00_System/Router.md` for placement and retrieval boundaries, `/mnt/obsidian/00_System/Context_Rules.md` for authority and answering behavior, and `/mnt/obsidian/00_System/Source_Governance.md` for externally sourced material.
+For work-related information, use relevant Obsidian content when available.
 
 When storing documents:
 

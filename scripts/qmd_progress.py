@@ -37,6 +37,16 @@ def main() -> int:
         return result.returncode
     vectors = re.search(r"Vectors:\s+(\d+) embedded", result.stdout)
     pending = re.search(r"Pending:\s+(\d+) need embedding", result.stdout)
+    if vectors and not pending:
+        done = int(vectors.group(1))
+        CACHE.parent.mkdir(parents=True, exist_ok=True)
+        CACHE.write_text(json.dumps({
+            "done": done,
+            "pending": 0,
+            "checked_at": datetime.now(timezone.utc).isoformat(),
+        }), encoding="utf-8")
+        print(f"🦾 QMD embedding complete: {done:,} embedded chunks · 0 source records pending.")
+        return 0
     if not vectors or not pending:
         print("🦾 QMD progress is unavailable. The index format will be inspected.")
         return 2
