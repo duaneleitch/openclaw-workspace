@@ -174,3 +174,29 @@ Audit OpenClaw model-routing behavior for usage-limit events and ensure the conf
 - Related Files: /home/duane/.openclaw/openclaw.json, /home/duane/.openclaw/logs/cache-trace.jsonl
 
 ---
+## [LRN-20260930-001] correction
+
+**Logged**: 2026-09-30T15:40:00Z
+**Priority**: high
+**Status**: resolved
+**Area**: docs
+
+### Summary
+Do not treat Hindsight summaries as proof that an Obsidian source-derived artifact was updated.
+
+### Details
+A memory claimed the incomplete pizza recipes were enriched, but the canonical Markdown artifact still contained partial source transcription without research evidence. For Second Brain work, verify the canonical file, source links, and QMD retrieval before reporting completion.
+
+### Suggested Action
+Reconstruct the incomplete recipes from cited research while preserving image-derived text and uncertainty labels; reconcile the durable artifact and memory pointer.
+
+### Metadata
+- Source: user_feedback
+- Related Files: /mnt/obsidian/20_Knowledge/Wiki/Recipes/9 Pizza Sauce Recipes.md
+- Tags: second-brain, provenance, verification
+
+### Resolution
+- **Resolved**: 2026-09-30T15:57:00Z
+- **Notes**: Canonical recipe note now preserves image transcription plus cited, explicitly non-exact researched adaptations for BBQ, Pesto, Tomato Basil, and Arrabbiata; QMD retrieval verified. Auto-publication now delegates broad QMD maintenance to the tested 4:00 AM Toronto job, and a live no-candidate test completed successfully in 46.1 seconds.
+
+---

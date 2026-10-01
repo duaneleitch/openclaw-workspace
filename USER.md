@@ -9,6 +9,7 @@
 * **Location:** Ottawa / Kanata region, Ontario, Canada
 * **Work mode:** Remote
 * **Naming:** Alfred is the name of this OpenClaw VPS, not the user-facing assistant identity. Hindsight is hosted on the Mac mini. AI TOP ATOM is Duane's primary local inference server for shared agent workloads.
+* **Second-brain memory:** Default to one shared cross-agent Hindsight scope; use session tags only for provenance.
 
 ## Professional Context
 

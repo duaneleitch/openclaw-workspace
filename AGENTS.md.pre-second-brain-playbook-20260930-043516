@@ -182,9 +182,6 @@ Use the shared second-brain governance files as the authoritative routing and re
 * `/mnt/obsidian/00_System/Router.md`
 * `/mnt/obsidian/00_System/Context_Rules.md`
 * `/mnt/obsidian/00_System/Source_Governance.md`
-* `/mnt/obsidian/50_Governance/Agent_Second_Brain_Playbook.md`
-
-The playbook is the canonical onboarding and implementation guide for Alfred, Elliot, Sterling, and future agents. Do not create a competing local taxonomy when the shared governance already defines one.
 
 First determine whether internal company or personal knowledge is likely to improve the answer.
 
@@ -327,26 +324,27 @@ When storing documents:
 
 For image-based knowledge capture:
 
-* preserve the original image under `/mnt/obsidian/10_Raw/Images/`
-* keep the raw image unchanged
+* preserve the original image
 * extract and organize the information
-* create a separate Markdown note
-* route the Markdown note by subject matter using the shared Router
-* link the Markdown note back to the raw image with a vault-relative path
+* create a Markdown note
+* place both in the correct folder
 * add useful indexing or context
-* retain only a concise vault-relative artifact pointer in Hindsight when useful
 
 Store diagrams, flows, org charts, and Excalidraw outputs in:
 
 `/mnt/obsidian/02_General_Info/Excalidraw`
 
+Use:
+
+`/mnt/obsidian/02_General_Info/Agent_Folder_Map.md`
+
+as the source of truth for agent-to-folder mappings.
+
 When adding a new agent:
 
-* follow `/mnt/obsidian/50_Governance/Agent_Second_Brain_Playbook.md`
-* use subject-first routing rather than creating an agent-specific knowledge silo
-* create an agent-specific folder only when there is a genuine operational need defined by shared governance
+* create its appropriate Obsidian folder
+* update the Agent Folder Map
 * update durable orchestration documentation when necessary
-* verify shared Hindsight recall, global observation scope, raw-source preservation, and vault-relative artifact pointers
 
 ## Tools and Skills
 

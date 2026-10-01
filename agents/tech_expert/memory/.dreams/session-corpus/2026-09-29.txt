@@ -1,0 +1,2 @@
+[tech_expert/sessions/tech_expert/b6333c1b-2a9a-4839-9f65-ee30e0a11c9e#L2] User: Reply with exactly: CODEX OK
+[tech_expert/sessions/tech_expert/b6333c1b-2a9a-4839-9f65-ee30e0a11c9e#L3] Assistant: CODEX OK
