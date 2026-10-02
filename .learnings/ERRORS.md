@@ -256,3 +256,26 @@ Use validated BM25 retrieval (`qmd search`). Do not retry broad embedding, globa
 
 ---
 
+## [ERR-20261001-001] youtube_video_ingestion
+
+**Logged**: 2026-10-01T02:31:00Z
+**Priority**: medium
+**Status**: pending
+**Area**: infra
+
+### Summary
+The standard YouTube ingestion flow is blocked on this VPS when YouTube rejects yt-dlp and Agent Reach lacks a configured transcription provider.
+
+### Context
+- yt-dlp rejected video fAhwYrjmQRk with a bot-confirmation requirement.
+- `agent-reach transcribe` reported no Groq or OpenAI provider key.
+- The configured Hermes/Elliot fallback is not addressable from this session.
+
+### Suggested Fix
+Expose the approved Hermes/Elliot relay to Alfred, or configure an Agent Reach transcription provider through the protected credential workflow.
+
+### Metadata
+- Reproducible: yes
+- Related Files: /mnt/obsidian/00_Alfred/YouTube_Video_Transcription_How-To.md
+
+---

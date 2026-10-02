@@ -200,3 +200,24 @@ Reconstruct the incomplete recipes from cited research while preserving image-de
 - **Notes**: Canonical recipe note now preserves image transcription plus cited, explicitly non-exact researched adaptations for BBQ, Pesto, Tomato Basil, and Arrabbiata; QMD retrieval verified. Auto-publication now delegates broad QMD maintenance to the tested 4:00 AM Toronto job, and a live no-candidate test completed successfully in 46.1 seconds.
 
 ---
+## [LRN-20261001-001] correction
+
+**Logged**: 2026-10-01T02:38:00Z
+**Priority**: high
+**Status**: pending
+**Area**: infra
+
+### Summary
+For YouTube ingestion, use yt-dlp first. If YouTube blocks the VPS or subtitles cannot be retrieved, do not request Groq/OpenAI transcription credentials, use Xiaoyuzhou tooling, or claim to route through Hermes/Elliot.
+
+### Details
+Alfred has no access to route work through Hermes/Elliot. The prior attempt incorrectly proposed an API-provider configuration and then incorrectly claimed an inaccessible Hermes/Elliot fallback.
+
+### Suggested Action
+Report the verified YouTube-access blocker cleanly and stop the ingestion until an approved, accessible path is provided.
+
+### Metadata
+- Source: user_feedback
+- Related Files: /mnt/obsidian/00_Alfred/YouTube_Video_Transcription_How-To.md
+
+---

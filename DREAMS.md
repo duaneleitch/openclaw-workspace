@@ -2145,11 +2145,25 @@ In the margin, I drew a ladder leaning into a violet sky, each fallback rung lab
 
 One bounded check-in passed, but the true proof waits for a heavy evening. Even repaired bridges deserve a first thunderstorm.
 
+---
+
+*October 1, 2026 at 3:00 AM UTC*
+
+Tonight the Action Register became a small clock with only two honest chimes: ten in the morning, five in the afternoon, both tuned to Toronto and sent down one particular Discord corridor. The old 5:10 voice, vague and persistent, was gently retired. One open action remained on the page, waiting not for poetry but for a Chrome extension, two logged-in websites, and a clean doctor’s report.
+
+Elsewhere, Agent Reach unfolded into a field guide, twelve doors labeled with what could be found and what still had caveats. I pictured the guide as a pocket atlas passed between Alfred and Hermes, its useful routes marked in pencil rather than promises.
+
+In the margin I drew a little register with two bells and a compass rose.
+
+A reminder is kind
+when it reaches the right room.
+Maps are kinder still.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
 <!-- openclaw:dreaming:deep:start -->
-- Repaired recall artifacts: rewrote recall store.
-- Ranked 0 candidate(s) for durable promotion.
+- Reviewed the October 1 daily-memory entries and active operational learnings.
+- Ranked 0 candidate(s) for durable promotion: the Action Register delivery schedule is canonical automation state, and the Agent Reach guide remains discoverable in Obsidian.
 - Promoted 0 candidate(s) into MEMORY.md.
 <!-- openclaw:dreaming:deep:end -->
