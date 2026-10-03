@@ -2166,4 +2166,7 @@ Maps are kinder still.
 - Reviewed the October 1 daily-memory entries and active operational learnings.
 - Ranked 0 candidate(s) for durable promotion: the Action Register delivery schedule is canonical automation state, and the Agent Reach guide remains discoverable in Obsidian.
 - Promoted 0 candidate(s) into MEMORY.md.
+- Reviewed the October 1 daily-memory entries again on October 2.
+- Ranked 0 candidate(s) for durable promotion: the Agent Reach guide remains discoverable in Obsidian, and the Action Register schedule belongs in its automation configuration rather than durable memory.
+- Promoted 0 candidate(s) into MEMORY.md.
 <!-- openclaw:dreaming:deep:end -->
