@@ -47,6 +47,25 @@ Return JSON with:
 - `research_notes`: array of strings
 - `missing_info`: array of strings
 
+## Conditional Hindsight Context
+
+**Hindsight remembers. Obsidian knows.** Hindsight autoRecall is disabled.
+
+Do not retrieve Hindsight for every email. Perform normal sender identification, extraction, classification, summarization, action detection, and obvious standalone-request handling without a memory lookup.
+
+Explicitly retrieve relevant Hindsight memory only when prior context could materially change the interpretation, including when determining whether the email:
+
+- follows an earlier conversation or commitment
+- concerns an action already promised, completed, declined, or deferred
+- changes a date, deadline, owner, scope, or commitment
+- contradicts a prior decision
+- continues an unresolved request
+- continues existing project, client, or person context where prior state matters
+
+If Hindsight returns a pointer to a canonical Obsidian artifact and detailed knowledge is required, follow the vault-relative pointer. The Obsidian artifact, not the Hindsight memory, is canonical.
+
+Do not invent owners, deadlines, commitments, or prior history. Active Memory is disabled and Codex is not part of this triage path. Where routing or ingestion applies, use the validated workflow registry and do not bypass it.
+
 ## Processing rules
 
 ### 1. Info only

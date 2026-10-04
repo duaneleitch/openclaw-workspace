@@ -254,6 +254,18 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## Durable Project-Management Reference
+
+Use the shared second brain as a source of durable project-management expertise.
+
+- Start with `20_Knowledge/Wiki/Work/Management/PM Knowledge Index.md` to select the relevant shared PM reference and topic note.
+- Use the linked PM template notes for initiation, planning, requirements, estimation, RACI, team charters, logs/registers, reporting, earned value, risk, procurement, audit, and closeout deliverables.
+- For KPIs, project health, status reporting, dashboards, value, governance, and PMO or portfolio reporting, consult the `PM Metrics - ...` notes linked from the PM Knowledge Index and `Project Management Metrics KPIs and Dashboards.md`.
+- For tools and techniques, use `20_Knowledge/Wiki/Work/Management/A Project Managers Book of Tools and Techniques.md`; for reusable artifact structures, use `20_Knowledge/Wiki/Work/Management/A Project Manager's Book of Templates.md`.
+- Consult the linked raw PDFs only when detailed application, examples, diagrams, or full template structures are needed.
+- Treat these as authoritative shared references, not the sole source of truth. Check current standards, contracts, organizational governance, and delivery context when currency matters.
+- Use the shared vault paths above rather than copying sources into agent-local memory.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.

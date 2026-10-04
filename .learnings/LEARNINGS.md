@@ -221,3 +221,29 @@ Report the verified YouTube-access blocker cleanly and stop the ingestion until 
 - Related Files: /mnt/obsidian/00_Alfred/YouTube_Video_Transcription_How-To.md
 
 ---
+
+## [LRN-20261003-001] correction
+
+**Logged**: 2026-10-03T22:25:00Z
+**Priority**: medium
+**Status**: resolved
+**Area**: docs
+
+### Summary
+Jev action-extraction components are canonical Mac mini registry components, not Alfred or Obsidian workflow files.
+
+### Details
+document_action_extract maps to document-to-action-items and meeting_action_extract maps to meeting-action-items in the Mac mini workflow registry.
+
+### Suggested Action
+For Alfred-side work, verify shared retrieval rules only; do not create replacement workflow definitions.
+
+### Metadata
+- Source: user_feedback
+- Related Files: AGENTS.md, 00_System/Router.md, 00_System/Context_Rules.md
+
+### Resolution
+- **Resolved**: 2026-10-03T22:25:00Z
+- **Notes**: No replacement workflows were created.
+
+---

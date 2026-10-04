@@ -186,6 +186,17 @@ Use the shared second-brain governance files as the authoritative routing and re
 
 The playbook is the canonical onboarding and implementation guide for Alfred, Elliot, Sterling, and future agents. Do not create a competing local taxonomy when the shared governance already defines one.
 
+**Hindsight remembers. Obsidian knows.**
+
+Retrieval is explicit and conditional, not automatic. Do not assume Hindsight memory is injected into the prompt, and do not retrieve Hindsight or Obsidian mechanically on every turn. Before answering or acting, retrieve only when prior or external context could materially improve correctness or continuity:
+
+- **Hindsight**: prior decisions, preferences, dates, commitments, corrections, relationships, prior state, and cross-agent context
+- **Obsidian**: canonical detailed knowledge, procedures, research, structured notes, source-derived artifacts, playbooks, and detailed reference material
+- **Web**: current or public information
+- **None**: when no prior or external retrieval is needed
+
+If Hindsight points to a canonical Obsidian artifact, follow the vault-relative pointer and treat the artifact, not the memory summary, as canonical.
+
 First determine whether internal company or personal knowledge is likely to improve the answer.
 
 ### Search internal knowledge first when the request involves:
@@ -265,7 +276,9 @@ When agent configuration or durable routing changes:
 
 ### Hindsight Shared Memory
 
-Hindsight is the shared operational memory layer for Alfred and other agents.
+Hindsight is the shared operational memory layer for Alfred and other agents. **Hindsight remembers. Obsidian knows.**
+
+Hindsight autoRecall is disabled. Relevant memory is not automatically injected into prompts. Explicitly retrieve relevant Hindsight memory before answering or acting when prior context could materially affect correctness or continuity; do not retrieve mechanically on every turn.
 
 Use the Hindsight knowledge tools proactively. Duane should not need to explicitly say "remember this" or "save this to Hindsight" for durable information to be retained.
 
@@ -295,7 +308,7 @@ Do not automatically retain:
 
 When durable information is identified:
 
-1. Use Hindsight recall when appropriate to determine whether related memory already exists.
+1. Explicitly retrieve relevant Hindsight memory when prior context could materially affect the answer or action; do not assume automatic recall.
 2. If the information is new, store it using the Hindsight knowledge tools.
 3. If it corrects or materially changes existing knowledge, preserve the newer authoritative information and avoid creating unnecessary conflicting duplicates.
 4. Store concise factual memory rather than conversational filler.
@@ -346,7 +359,7 @@ When adding a new agent:
 * use subject-first routing rather than creating an agent-specific knowledge silo
 * create an agent-specific folder only when there is a genuine operational need defined by shared governance
 * update durable orchestration documentation when necessary
-* verify shared Hindsight recall, global observation scope, raw-source preservation, and vault-relative artifact pointers
+* verify explicit shared Hindsight retrieval, global observation scope, raw-source preservation, and vault-relative artifact pointers
 
 ## Tools and Skills
 

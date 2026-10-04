@@ -279,3 +279,109 @@ Expose the approved Hermes/Elliot relay to Alfred, or configure an Agent Reach t
 - Related Files: /mnt/obsidian/00_Alfred/YouTube_Video_Transcription_How-To.md
 
 ---
+
+## [ERR-20261003-001] hindsight_operation_status_lookup
+
+**Logged**: 2026-10-03T17:14:00Z
+**Priority**: low
+**Status**: resolved
+**Area**: infra
+
+### Summary
+The Hindsight client does not expose `getOperationStatus` as an instance method, and the initial status endpoint omitted the bank path.
+
+### Resolution
+Query completed ingestion at `/v1/default/banks/{bank_id}/operations/{operation_id}` with the configured bearer token. The submitted ingest operation completed successfully.
+
+### Metadata
+- Reproducible: yes
+- Related Files: @vectorize-io/hindsight-client API client
+
+---
+
+## [ERR-20261003-001] openclaw_code_mode
+
+**Logged**: 2026-10-03T22:09:00Z
+**Priority**: low
+**Status**: resolved
+**Area**: docs
+
+### Summary
+Initial Code Mode call assumed a nonexistent tools global.
+
+### Error
+`ReferenceError: tools is not defined`
+
+### Context
+Used the documented catalog search pattern on retry.
+
+### Suggested Fix
+Use catalog.search to obtain callable tools in Code Mode.
+
+### Metadata
+- Reproducible: yes
+- Related Files: .learnings/ERRORS.md
+
+### Resolution
+- **Resolved**: 2026-10-03T22:09:00Z
+- **Notes**: Retried using catalog.search.
+
+---
+
+## [ERR-20261003-002] registry_inspection
+
+**Logged**: 2026-10-03T22:17:00Z
+**Priority**: low
+**Status**: resolved
+**Area**: docs
+
+### Summary
+Direct sqlite inspection of active OpenClaw state is blocked.
+
+### Error
+External sqlite3 cannot open databases under the active OpenClaw state directory.
+
+### Context
+Inspect registry via supported OpenClaw or Jev controls, or a private backup copy.
+
+### Suggested Fix
+Do not query active registry SQLite directly.
+
+### Metadata
+- Reproducible: yes
+- Related Files: .learnings/ERRORS.md
+
+### Resolution
+- **Resolved**: 2026-10-03T22:17:00Z
+- **Notes**: Switched to supported tooling discovery.
+
+---
+
+## [ERR-20261003-003] workflow_registry_inspection
+
+**Logged**: 2026-10-03T22:24:00Z
+**Priority**: low
+**Status**: resolved
+**Area**: docs
+
+### Summary
+The local environment has no sqlite3 executable for inspecting a copied migrated workflow registry.
+
+### Error
+sqlite3: command not found
+
+### Context
+No source files or registry rows for document_action_extract or meeting_action_extract were found in accessible shared governance or workspace paths.
+
+### Suggested Fix
+Use a supported registry export or provide the canonical workflow location.
+
+### Metadata
+- Reproducible: yes
+- Related Files: .learnings/ERRORS.md
+
+### Resolution
+- **Resolved**: 2026-10-03T22:24:00Z
+- **Notes**: Stopped without changing unspecified workflow definitions.
+
+---

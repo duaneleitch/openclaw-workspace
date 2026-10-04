@@ -23,3 +23,9 @@ Response:
 - Research first.
 - Draft only.
 - Never send.
+
+## Conditional Context Retrieval
+
+Hindsight autoRecall is disabled. Retrieve Hindsight only if prior context could materially change email interpretation: follow-up status, prior promise or disposition, changed date/deadline/owner/scope/commitment, contradiction, unresolved request, or active project/client/person context. Do not retrieve for ordinary extraction, classification, summarization, sender identification, or obvious standalone requests.
+
+When Hindsight points to canonical Obsidian knowledge needed for detail, follow the vault-relative pointer. Do not treat the memory as the canonical document. Active Memory and Codex are excluded from this path.
