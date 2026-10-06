@@ -338,54 +338,6 @@ When storing documents:
 * use readable Markdown formatting
 * never leave literal `\n` sequences in finished notes
 
-## JEV Universal Ingestion and Classification
-
-For any inbound source material, JEV must determine what the content is and what workflow applies. Duane should not need to pre-classify the source or tell Alfred whether it is a recipe, procedure, research item, reference document, image, video, PDF, Word document, spreadsheet, or other knowledge type.
-
-This applies to inbound:
-
-* screenshots and images
-* PDFs
-* Word and office documents
-* spreadsheets
-* audio
-* video
-* web pages and URLs
-* Facebook, Reddit, YouTube, and other supported links
-* emails or message content
-* pasted text
-* other supported source material
-
-Processing sequence:
-
-1. Preserve or reference the original source according to source-governance rules.
-2. Extract enough metadata, text, captions, transcript, structure, or visual content to understand the source.
-3. JEV determines the subject matter, source type, user intent, durability, and appropriate workflow.
-4. Route using `/mnt/obsidian/00_System/Router.md` and the applicable specialized skill.
-5. If a canonical artifact type applies, create or update that artifact rather than leaving only a generic source note.
-6. Link the canonical artifact to its raw/source material using vault-relative paths where appropriate.
-7. Preserve provenance and source context.
-8. Retain only useful concise durable facts or artifact pointers in Hindsight when appropriate.
-9. Verify the expected artifact and source preservation before reporting success.
-10. Return one concise user-facing completion response unless Duane explicitly asks for more detail.
-
-Do not require Duane to tell Alfred what kind of content he supplied or what workflow should process it when the content itself provides enough evidence to determine that.
-
-For video-link knowledge capture:
-
-* For Facebook video URLs, reels, `/share/r/`, `/share/v/`, `/reel/`, or `/watch/` links, do not use the browser as the primary ingestion path.
-* First use the local media-ingestion pipeline:
-  `~/.openclaw/workspace/scripts/youtube_ingest.py "<url>"`
-* The script name is historical; it is also the approved ingestion path for Facebook video URLs supported by yt-dlp.
-* Let yt-dlp resolve Facebook share links and redirects directly. Do not treat a Facebook browser login wall as proof that the video is inaccessible.
-* Preserve downloaded source media, metadata, thumbnail, captions when available, transcript, and provenance in Obsidian.
-* After ingestion, inspect the metadata and transcript and determine the subject matter.
-* If the source is a recipe, create or update the canonical recipe Markdown artifact according to `/mnt/obsidian/00_System/Router.md` rather than stopping at a generic source note.
-* Link the canonical artifact back to the preserved raw source material using vault-relative paths.
-* Retain only a concise artifact pointer or durable fact in Hindsight when useful.
-* Do not claim successful ingestion until the required Obsidian artifact has been written and verified.
-* Do not launch a browser for the same Facebook URL after yt-dlp has successfully resolved or captured it.
-
 For image-based knowledge capture:
 
 * preserve the original image under `/mnt/obsidian/10_Raw/Images/`
