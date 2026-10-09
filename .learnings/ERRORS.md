@@ -385,3 +385,29 @@ Use a supported registry export or provide the canonical workflow location.
 - **Notes**: Stopped without changing unspecified workflow definitions.
 
 ---
+
+## [ERR-20261008-002] obsidian_directory_read
+
+**Logged**: 2026-10-08T20:21:00Z
+**Priority**: low
+**Status**: resolved
+**Area**: docs
+
+### Summary
+A file-read request was used on an Obsidian directory.
+
+### Error
+`Read requires a file path`
+
+### Suggested Fix
+Use the directory-listing capability for folder inspection; a directory-specific error confirms the path exists.
+
+### Metadata
+- Reproducible: yes
+- Related Files: /mnt/obsidian/01_Elliot/BusinessIdeas
+
+### Resolution
+- **Resolved**: 2026-10-08T20:21:00Z
+- **Notes**: The error itself confirmed the directory exists.
+
+---
