@@ -247,3 +247,12 @@ For Alfred-side work, verify shared retrieval rules only; do not create replacem
 - **Notes**: No replacement workflows were created.
 
 ---
+
+## [INSIGHT-20261010-001] Canonical Action Items Source
+
+**Logged**: 2026-10-10T14:04:00Z
+**Category**: correction
+
+The daily action reminder must source tasks from `/mnt/obsidian/20_Knowledge/Wiki/Tasks/Action-Items.md`, which mirrors Duane’s Mac path `/Volumes/AI-Storage/Obsidian/20_Knowledge/Wiki/Tasks/Action-Items.md`. Do not use `05_Action_Items/Action_Register_Readable.md` as the canonical source for this reminder. <!-- project: github.com/duaneleitch/openclaw-workspace -->
+
+---

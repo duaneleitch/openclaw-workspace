@@ -411,3 +411,28 @@ Use the directory-listing capability for folder inspection; a directory-specific
 - **Notes**: The error itself confirmed the directory exists.
 
 ---
+
+## [ERR-20261010-001] renderer_edit_template_syntax
+
+**Logged**: 2026-10-10T13:50:00Z
+**Priority**: low
+**Status**: resolved
+**Area**: automation
+
+### Summary
+A JavaScript template literal used to write a Python renderer conflicted with Python f-string interpolation.
+
+### Error
+`SyntaxError: Unexpected token`
+
+### Suggested Fix
+Use an array of quoted lines when writing source that contains another language’s interpolation syntax.
+
+### Metadata
+- Reproducible: yes
+- Related Files: scripts/render_action_summary.py
+
+### Resolution
+- **Resolved**: 2026-10-10T13:50:00Z
+
+---
