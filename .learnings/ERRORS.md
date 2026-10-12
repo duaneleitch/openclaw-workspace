@@ -436,3 +436,27 @@ Use an array of quoted lines when writing source that contains another languageâ
 - **Resolved**: 2026-10-10T13:50:00Z
 
 ---
+
+## [ERR-20261011-001] process_monitor_lookup
+
+**Logged**: 2026-10-11T21:55:00Z
+**Priority**: low
+**Status**: resolved
+**Area**: tooling
+
+### Summary
+A broad catalog query selected the shell executor rather than the process monitor.
+
+### Error
+`command: must have required property command`
+
+### Suggested Fix
+Use an exact process-tool catalog query and inspect the returned name before polling.
+
+### Metadata
+- Reproducible: yes
+
+### Resolution
+- **Resolved**: 2026-10-11T21:55:00Z
+
+---
