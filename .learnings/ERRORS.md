@@ -460,3 +460,32 @@ Use an exact process-tool catalog query and inspect the returned name before pol
 - **Resolved**: 2026-10-11T21:55:00Z
 
 ---
+
+## [ERR-20261017-001] sessions_list_relationship
+
+**Logged**: 2026-10-17T03:00:00Z
+**Priority**: low
+**Status**: resolved
+**Area**: infra
+
+### Summary
+`sessions_list` rejected the relationship filter in this unattended agent context.
+
+### Error
+`relationship requires an authenticated requesting user; use an explicit ownerId or creatorId instead`
+
+### Context
+A memory-promotion run queried session metadata using `relationship: owned`.
+
+### Suggested Fix
+Omit `relationship` when no authenticated requesting user is available.
+
+### Metadata
+- Reproducible: yes
+- Related Files: .learnings/ERRORS.md
+
+### Resolution
+- **Resolved**: 2026-10-17T03:00:00Z
+- **Notes**: Retried without the filter and retrieved the visible sessions.
+
+---
