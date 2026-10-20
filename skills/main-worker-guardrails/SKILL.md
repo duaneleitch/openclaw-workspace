@@ -42,6 +42,12 @@ Use this skill to make Main the single entry point and single decision point for
 Do not pass worker output to the user until Main has validated it.
 If validation fails, Main owns the remediation step.
 
+## Restricted worker writes
+
+If a worker or child session cannot write to a required location outside its permitted workspace, it must return the proposed change to Main rather than treating the task as blocked.
+
+Main must perform and verify any required canonical write that the worker cannot execute, including writes to `/mnt/obsidian/05_Action_Items/Action_Register_Readable.md`.
+
 ## Everyday use
 
 Treat this as the default delegation pattern for routine multi-step work.

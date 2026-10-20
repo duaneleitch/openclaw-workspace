@@ -97,6 +97,14 @@ Default delegation pattern:
 
 Use `main-worker-guardrails` as the standard two-pass delegation workflow when appropriate.
 
+### Canonical Action Register Writes
+
+Any create, update, close, delete, renumber, or other modification to `/mnt/obsidian/05_Action_Items/Action_Register_Readable.md` must be executed by the main agent.
+
+Research, analysis, or drafting related to an action item may be delegated to a specialist or child session, but the delegated session must return the proposed change to the main agent. The main agent must perform and verify the canonical register write itself.
+
+Never report an Action Item as blocked solely because a delegated child session cannot write outside its workspace. If the child lacks access to `/mnt/obsidian`, return control to the main agent for the canonical write.
+
 ### Domain Routing
 
 Prefer the most relevant domain specialist when the request clearly belongs to that domain.
