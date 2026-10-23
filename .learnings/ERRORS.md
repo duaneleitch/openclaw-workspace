@@ -489,3 +489,25 @@ Omit `relationship` when no authenticated requesting user is available.
 - **Notes**: Retried without the filter and retrieved the visible sessions.
 
 ---
+
+## [ERR-20261022-001] sessions_history_conversation_ref
+
+**Logged**: 2026-10-22T03:00:00Z
+**Priority**: low
+**Status**: resolved
+**Area**: tooling
+
+### Summary
+Conversation references cannot be passed to sessions_history.
+
+### Error
+`Session not found: conv_… (use the full sessionKey from sessions_list)`
+
+### Resolution
+Retrieved metadata via sessions_list and used each returned key with sessions_history.
+
+### Metadata
+- Reproducible: yes
+- Related Files: .learnings/ERRORS.md
+
+---
