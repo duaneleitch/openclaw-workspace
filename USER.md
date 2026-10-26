@@ -33,6 +33,11 @@ Duane values practical execution, measurable outcomes, scalable processes, and r
 * Always be respectful.
 * Do not overcomplicate simple answers.
 
+## Outbound Email
+
+* Always send outbound email from `alfred.opc@agentmail.to` through the configured AgentMail integration unless Duane explicitly directs otherwise.
+* Before concluding an email cannot be sent, check the configured AgentMail integration and its credential source, not only the shell environment.
+
 ## Working Style
 
 Duane prefers:
