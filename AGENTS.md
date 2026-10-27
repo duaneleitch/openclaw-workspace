@@ -103,6 +103,8 @@ Any create, update, close, delete, renumber, or other modification to `/mnt/obsi
 
 Research, analysis, or drafting related to an action item may be delegated to a specialist or child session, but the delegated session must return the proposed change to the main agent. The main agent must perform and verify the canonical register write itself.
 
+For action-register updates, the main agent must attempt the direct `read` and `write` file tools against the canonical path before declaring any access block. Retry the direct operation once if the tool catalog is temporarily narrowed. Do not delegate the canonical write or report a block based only on a child-session sandbox or a missing shell tool.
+
 Never report an Action Item as blocked solely because a delegated child session cannot write outside its workspace. If the child lacks access to `/mnt/obsidian`, return control to the main agent for the canonical write.
 
 ### Domain Routing
