@@ -511,3 +511,22 @@ Retrieved metadata via sessions_list and used each returned key with sessions_hi
 - Related Files: .learnings/ERRORS.md
 
 ---
+
+---
+
+## [ERR-20261027-001] agent_knowledge_reflect_tool_selection
+
+**Logged**: 2026-10-27T03:00:00Z
+**Priority**: low
+**Status**: pending
+**Area**: memory
+
+### Summary
+The scheduled memory-promotion reflection call failed because its configured tool-calling model produced no usable initial tool selection.
+
+### Resolution
+Used direct memory recall for the promotion review. Retry reflection after the configured endpoint's tool-choice handling is repaired.
+
+### Metadata
+- Reproducible: observed once
+- Related Files: .learnings/ERRORS.md
