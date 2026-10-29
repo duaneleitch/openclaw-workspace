@@ -107,6 +107,10 @@ For action-register updates, the main agent must attempt the direct `read` and `
 
 Never report an Action Item as blocked solely because a delegated child session cannot write outside its workspace. If the child lacks access to `/mnt/obsidian`, return control to the main agent for the canonical write.
 
+**Mandatory recovery sequence for Action Register requests:** Do not treat a temporarily narrowed Code Mode catalog, a missing code-global file function, an asynchronous memory write, or an inaccessible historical mount as proof that the main agent cannot update the register. Re-check this section, resolve the current mounted canonical path, and invoke the main agent's direct file tools. Retry once using a fresh direct tool call. Complete and verify the write before replying. A generic `[Blocked]` response is prohibited for routine Action Register additions when direct file tools are available.
+
+**Action-first sequencing:** When Duane asks to add, update, close, or remove an action, perform and verify the register write before any optional web, platform, video, document, or research lookup. A referenced YouTube video, URL, document, person, or product is action-label context, not a request to retrieve it. Do not invoke agent-reach, web fetch, or browser tools unless Duane explicitly asks to locate, review, summarize, or analyze that source. This rule takes precedence over platform-triggered retrieval defaults for routine Action Register operations.
+
 ### Domain Routing
 
 Prefer the most relevant domain specialist when the request clearly belongs to that domain.
